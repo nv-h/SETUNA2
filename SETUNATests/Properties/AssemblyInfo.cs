@@ -1,10 +1,9 @@
 ﻿using System.Reflection;
 using System.Runtime.InteropServices;
 
-// 有关程序集的一般信息由以下
-// 控制。更改这些特性值可修改
-// 与程序集关联的信息。
-[assembly: AssemblyTitle("SETUNATests")]
+// General information about the assembly consists of the following
+// Control. Changing these characteristic values can be modified
+// Information associated with the assembly.[assembly: AssemblyTitle("SETUNATests")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
@@ -13,23 +12,23 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
-//将 ComVisible 设置为 false 将使此程序集中的类型
-//对 COM 组件不可见。  如果需要从 COM 访问此程序集中的类型，
-//请将此类型的 ComVisible 特性设置为 true。
+//Set "ComVisible" to "false" will make the type in this assembly
+//Not visible to "COM" components. If you need to access the types in this assembly from "COM",
+//Please set the "ComVisible" property of this type to "true".
 [assembly: ComVisible(false)]
 
-// 如果此项目向 COM 公开，则下列 GUID 用于类型库的 ID
+// If this project is exposed to COM, the following GUID is used for the ID of the type library
 [assembly: Guid("a601cd5f-88ca-47c6-9d24-33e006864bd9")]
 
-// 程序集的版本信息由下列四个值组成: 
+// The version information of the assembly consists of the following four values:
 //
-//      主版本
-//      次版本
-//      生成号
-//      修订号
+// Major version
+// minor version
+// Generation number
+//      Amendment No
 //
-//可以指定所有这些值，也可以使用“生成号”和“修订号”的默认值
-//通过使用 "*"，如下所示:
+//You can specify all these values, or you can use the default values of "Generation Number" and "Revision Number"
+//By using "*", as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]

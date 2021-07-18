@@ -105,7 +105,7 @@ namespace SETUNA.Main.Option
         {
             if (txtStyleName.Text.Trim().Length == 0)
             {
-                MessageBox.Show("请输入自动操作名。", Text, MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                MessageBox.Show("Enter the action name.", Text, MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                 txtStyleName.Focus();
                 return;
             }
@@ -264,10 +264,10 @@ namespace SETUNA.Main.Option
                     var keyItem = _keybook.FindKeyItem(keys);
                     if (keyItem != null)
                     {
-                        var text = "「登记」，然后按目前的分配方式。";
+                        var text = "'Register' and then in the current shortcut mode.";
                         hotkey.PointToScreen(new Point(0, 0));
                         toolTip1.Active = true;
-                        toolTip1.ToolTipTitle = "「" + keyItem.ParentStyle.StyleName + "」被分配。";
+                        toolTip1.ToolTipTitle = "'" + keyItem.ParentStyle.StyleName + "' is assigned.";
                         toolTip1.Show(text, label5);
                     }
                 }

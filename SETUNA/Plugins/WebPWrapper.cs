@@ -1978,7 +1978,7 @@ namespace WebPWrapper
         public int segment_level_segments2;
         /// <summary>Filtering strength for segment 3 [0..63]</summary>
         public int segment_level_segments3;
-        /// <summary>Size of the transparency data</summary>
+        /// <summary>Size of the Opacity data</summary>
         public int alpha_data_size;
         /// <summary>Size of the enhancement layer data</summary>
         public int layer_data_size;

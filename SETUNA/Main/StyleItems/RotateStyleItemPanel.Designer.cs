@@ -45,7 +45,7 @@
             this.groupBox1.Size = new System.Drawing.Size(247, 157);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "设置";
+            this.groupBox1.Text = "Settings";
             // 
             // chkHorizon
             // 
@@ -54,7 +54,7 @@
             this.chkHorizon.Name = "chkHorizon";
             this.chkHorizon.Size = new System.Drawing.Size(72, 16);
             this.chkHorizon.TabIndex = 11;
-            this.chkHorizon.Text = "水平翻转";
+            this.chkHorizon.Text = "Horizontal";
             this.chkHorizon.UseVisualStyleBackColor = true;
             this.chkHorizon.CheckedChanged += new System.EventHandler(this.rdoNone_CheckedChanged);
             // 
@@ -65,7 +65,7 @@
             this.chkVertical.Name = "chkVertical";
             this.chkVertical.Size = new System.Drawing.Size(72, 16);
             this.chkVertical.TabIndex = 10;
-            this.chkVertical.Text = "垂直翻转";
+            this.chkVertical.Text = "Vertical";
             this.chkVertical.UseVisualStyleBackColor = true;
             this.chkVertical.CheckedChanged += new System.EventHandler(this.rdoNone_CheckedChanged);
             // 
@@ -76,7 +76,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(77, 12);
             this.label2.TabIndex = 2;
-            this.label2.Text = "翻转参考图∶";
+            this.label2.Text = "Rotate image:";
             // 
             // panel1
             // 
@@ -96,7 +96,7 @@
             this.rdo180.Name = "rdo180";
             this.rdo180.Size = new System.Drawing.Size(53, 16);
             this.rdo180.TabIndex = 3;
-            this.rdo180.Text = "180度";
+            this.rdo180.Text = "180 degree";
             this.rdo180.UseVisualStyleBackColor = true;
             this.rdo180.CheckedChanged += new System.EventHandler(this.rdoNone_CheckedChanged);
             // 
@@ -107,7 +107,7 @@
             this.rdoLeft90.Name = "rdoLeft90";
             this.rdoLeft90.Size = new System.Drawing.Size(71, 16);
             this.rdoLeft90.TabIndex = 2;
-            this.rdoLeft90.Text = "左转90度";
+            this.rdoLeft90.Text = "Left 90 degree";
             this.rdoLeft90.UseVisualStyleBackColor = true;
             this.rdoLeft90.CheckedChanged += new System.EventHandler(this.rdoNone_CheckedChanged);
             // 
@@ -118,7 +118,7 @@
             this.rdoRight90.Name = "rdoRight90";
             this.rdoRight90.Size = new System.Drawing.Size(71, 16);
             this.rdoRight90.TabIndex = 1;
-            this.rdoRight90.Text = "右转90度";
+            this.rdoRight90.Text = "Right 90 degree";
             this.rdoRight90.UseVisualStyleBackColor = true;
             this.rdoRight90.CheckedChanged += new System.EventHandler(this.rdoNone_CheckedChanged);
             // 
@@ -131,7 +131,7 @@
             this.rdoNone.Size = new System.Drawing.Size(35, 16);
             this.rdoNone.TabIndex = 0;
             this.rdoNone.TabStop = true;
-            this.rdoNone.Text = "无";
+            this.rdoNone.Text = "None";
             this.rdoNone.UseVisualStyleBackColor = true;
             this.rdoNone.CheckedChanged += new System.EventHandler(this.rdoNone_CheckedChanged);
             // 
@@ -142,7 +142,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(77, 12);
             this.label1.TabIndex = 0;
-            this.label1.Text = "旋转参考图：";
+            this.label1.Text = "Rotate image:";
             // 
             // groupBox2
             // 
@@ -152,7 +152,7 @@
             this.groupBox2.Size = new System.Drawing.Size(179, 157);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "预览";
+            this.groupBox2.Text = "Preview";
             // 
             // picPreview
             // 

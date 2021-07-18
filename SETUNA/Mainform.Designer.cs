@@ -36,28 +36,28 @@
             this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.Font = new System.Drawing.Font("微软雅黑", 14F);
+            this.button1.Font = System.Drawing.SystemFonts.DefaultFont;
             this.button1.ForeColor = System.Drawing.Color.Gray;
             this.button1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.button1.Location = new System.Drawing.Point(0, 0);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(253, 54);
+            this.button1.Size = new System.Drawing.Size(252, 54);
             this.button1.TabIndex = 0;
-            this.button1.Text = "截取";
+            this.button1.Text = "Capture";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button4
             // 
             this.button4.Dock = System.Windows.Forms.DockStyle.Right;
-            this.button4.Font = new System.Drawing.Font("微软雅黑", 9F);
+            this.button4.Font = System.Drawing.SystemFonts.DefaultFont;
             this.button4.ForeColor = System.Drawing.Color.Gray;
             this.button4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.button4.Location = new System.Drawing.Point(252, 0);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(44, 54);
+            this.button4.Size = new System.Drawing.Size(96, 54);
             this.button4.TabIndex = 4;
-            this.button4.Text = "选项";
+            this.button4.Text = "Options";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
@@ -117,7 +117,7 @@
             // Mainform
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.ClientSize = new System.Drawing.Size(296, 54);
+            this.ClientSize = new System.Drawing.Size(252+96, 54);
             this.ContextMenuStrip = this.setunaIconMenu;
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button1);

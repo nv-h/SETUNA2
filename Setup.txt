@@ -1,0 +1,1 @@
+First switch the platform to x86, then F5 to start the project once.

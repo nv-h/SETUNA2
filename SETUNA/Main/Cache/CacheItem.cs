@@ -12,13 +12,9 @@ namespace SETUNA.Main.Cache
         private const string InfoFileName = "Info.json";
 
 
-        // 创建时间
         public DateTime CreateTime { set; get; }
-        // 位置
         public Point Position { set; get; }
-        // 样式
         public Style Style { set; get; }
-        // 排序值
         public int SortingOrder { set; get; }
 
 
@@ -39,7 +35,6 @@ namespace SETUNA.Main.Cache
         }
 
 
-        // 创建缓存
         public static CacheItem Create(DateTime createTime, Image image, Point pos, Style style)
         {
             var item = new CacheItem
@@ -55,7 +50,6 @@ namespace SETUNA.Main.Cache
             return item;
         }
 
-        // 读取缓存
         public static CacheItem Read(string cacheItemPath)
         {
             var fullPath = Path.Combine(cacheItemPath, InfoFileName);

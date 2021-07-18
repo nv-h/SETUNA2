@@ -17,7 +17,7 @@ namespace SETUNA.Main
         {
             _scrapbook = scrapbook;
             base.DropDownItems.Clear();
-            base.DropDownItems.Insert(0, new ToolStripMenuItem("无"));
+            base.DropDownItems.Insert(0, new ToolStripMenuItem("None"));
 
             ToolStripEx.BigButtons(DropDown);
         }
@@ -54,7 +54,7 @@ namespace SETUNA.Main
             }
             if (base.DropDownItems.Count == 0)
             {
-                base.DropDownItems.Insert(0, new ToolStripMenuItem("无"));
+                base.DropDownItems.Insert(0, new ToolStripMenuItem("None"));
             }
             _createdlist = true;
         }

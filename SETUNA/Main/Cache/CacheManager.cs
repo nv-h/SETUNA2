@@ -75,7 +75,7 @@ namespace SETUNA.Main.Cache
         {
             var scrap = e.scrap;
 
-            // 已经绑定缓存则忽略
+            // Ignore if the cache is already bound
             if (scrap.CacheItem != null)
             {
                 return;

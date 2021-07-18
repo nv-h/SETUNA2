@@ -29,7 +29,6 @@ namespace SETUNA.Main.StyleItems
                 new CImagePngStyleItem(),
                 new CCompactStyleItem(),
                 new CTrimStyleItem(),
-                new CPicasaUploaderStyleItem()
             }.ToArray();
         }
 

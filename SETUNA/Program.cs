@@ -11,7 +11,7 @@ namespace SETUNA
         [STAThread]
         private static void Main(string[] args)
         {
-            // 不是Win10周年更新版本及以上的，设置DPI感知
+            // Not Win10 anniversary update version and above, set DPI perception
             var osVersion = Environment.OSVersion.Version;
             if (osVersion == null || osVersion.Major < 10 || osVersion.Build < 14393)
             {

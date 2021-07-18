@@ -134,7 +134,7 @@ namespace SETUNA.Main
         static extern bool DrawIcon(IntPtr hDC, int X, int Y, IntPtr hIcon);
 
         /// <summary>
-        /// 将鼠标指针形状绘制到屏幕截图上
+        /// Draw the mouse pointer shape onto the screenshot
         /// </summary>
         /// <param name="g"></param>
         public static void DrawCursorImageToScreenImage(Point position, IntPtr hDC)

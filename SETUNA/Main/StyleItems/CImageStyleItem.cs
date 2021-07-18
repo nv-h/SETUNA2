@@ -84,7 +84,7 @@ namespace SETUNA.Main.StyleItems
             }
             catch (Exception ex2)
             {
-                MessageBox.Show(text + "\n无法保存。", Application.ProductName, MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                MessageBox.Show(text + "\nCould not save.", Application.ProductName, MessageBoxButtons.OK, MessageBoxIcon.Hand);
                 throw ex2;
             }
             finally
@@ -164,7 +164,7 @@ namespace SETUNA.Main.StyleItems
                             }
                         case CImageStyleItem.EnumDupliType.Select:
                             {
-                                var dialogResult = MessageBox.Show("相同的文件名已存在。\n覆盖？", Application.ProductName, MessageBoxButtons.YesNoCancel, MessageBoxIcon.Asterisk, MessageBoxDefaultButton.Button2);
+                                var dialogResult = MessageBox.Show("Already exists. \nOverwrite?", Application.ProductName, MessageBoxButtons.YesNoCancel, MessageBoxIcon.Asterisk, MessageBoxDefaultButton.Button2);
                                 if (dialogResult == DialogResult.No)
                                 {
                                     flag = true;
@@ -213,7 +213,7 @@ namespace SETUNA.Main.StyleItems
             }
             if (imageCodecInfo == null)
             {
-                MessageBox.Show("因为利用可以的编码器没找到，不能保存图像。", GetDisplayName(), MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                MessageBox.Show("The image cannot be saved because the encoder that can be used is not found.", GetDisplayName(), MessageBoxButtons.OK, MessageBoxIcon.Hand);
             }
             return imageCodecInfo;
         }
@@ -224,7 +224,7 @@ namespace SETUNA.Main.StyleItems
 
         // Token: 0x1700003B RID: 59
         // (get) Token: 0x060000CB RID: 203 RVA: 0x00005AC5 File Offset: 0x00003CC5
-        protected virtual string FileFilter => "所有文件 (*.*)|*.*";
+        protected virtual string FileFilter => "All files (*.*)|*.*";
 
         // Token: 0x060000CC RID: 204
         protected abstract EncoderParameter[] GetEncoderParams(ref ScrapBase scrap);

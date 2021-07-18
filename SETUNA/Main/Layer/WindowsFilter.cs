@@ -25,11 +25,10 @@
         {
             // QQ
             new FilterInfo(string.Empty, "TXGuiFoundation"),
-            // QQ右键菜单
+            // QQ Right click menu
             new FilterInfo("TXMenuWindow","TXGuiFoundation"),
-            // 有度
+            // Degree
             new FilterInfo("ScreenShotWnd"),
-            // 微信
             new FilterInfo("SnapshotWnd"),
             new FilterInfo("CToolBarWnd"),
         };
