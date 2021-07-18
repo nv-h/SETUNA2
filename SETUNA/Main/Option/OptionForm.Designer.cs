@@ -284,7 +284,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(456, 66);
             this.button2.TabIndex = 12;
-            this.button2.Text = "Open the cache directory";
+            this.button2.Text = "Open cache directory";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -360,7 +360,7 @@
             this.checkBox_autoStartup.Name = "checkBox_autoStartup";
             this.checkBox_autoStartup.Size = new System.Drawing.Size(201, 34);
             this.checkBox_autoStartup.TabIndex = 9;
-            this.checkBox_autoStartup.Text = "Auto-start at boot";
+            this.checkBox_autoStartup.Text = "Start at boot";
             this.checkBox_autoStartup.UseVisualStyleBackColor = true;
             // 
             // checkBox_topMost
@@ -371,7 +371,7 @@
             this.checkBox_topMost.Name = "checkBox_topMost";
             this.checkBox_topMost.Size = new System.Drawing.Size(231, 34);
             this.checkBox_topMost.TabIndex = 8;
-            this.checkBox_topMost.Text = "Always top screenshot";
+            this.checkBox_topMost.Text = "Always on top screenshot";
             this.checkBox_topMost.UseVisualStyleBackColor = true;
             // 
             // chkSplash
@@ -382,7 +382,7 @@
             this.chkSplash.Name = "chkSplash";
             this.chkSplash.Size = new System.Drawing.Size(231, 34);
             this.chkSplash.TabIndex = 7;
-            this.chkSplash.Text = "Show splash image";
+            this.chkSplash.Text = "Show splash screen";
             this.toolTip1.SetToolTip(this.chkSplash, "The logo will be displayed when SETUNA is started.");
             this.chkSplash.UseVisualStyleBackColor = true;
             // 
@@ -398,7 +398,7 @@
             this.groupBox5.Size = new System.Drawing.Size(1058, 174);
             this.groupBox5.TabIndex = 9;
             this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "Recycle bin settings";
+            this.groupBox5.Text = "Recycle bin";
             // 
             // chkDustBox
             // 
@@ -408,8 +408,8 @@
             this.chkDustBox.Name = "chkDustBox";
             this.chkDustBox.Size = new System.Drawing.Size(201, 34);
             this.chkDustBox.TabIndex = 4;
-            this.chkDustBox.Text = "Use the recycle bin";
-            this.toolTip1.SetToolTip(this.chkDustBox, "If you use the recycle bin, the captured image will be temporarily stored in the recycle bin. \nIt can be taken out from the recycle bin according to the situation.");
+            this.chkDustBox.Text = "Use recycle bin";
+            this.toolTip1.SetToolTip(this.chkDustBox, "If you use recycle bin, captured image will be temporarily stored in recycle bin. \nIt can be taken out from recycle bin according to the situation.");
             this.chkDustBox.UseVisualStyleBackColor = true;
             // 
             // label14
@@ -424,14 +424,14 @@
             // 
             // numDustBox
             // 
-            this.numDustBox.Font = System.Drawing.SystemFonts.MenuFont;
+            this.numDustBox.Font = System.Drawing.SystemFonts.DefaultFont;
             this.numDustBox.Location = new System.Drawing.Point(94, 100);
             this.numDustBox.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
             this.numDustBox.Name = "numDustBox";
             this.numDustBox.Size = new System.Drawing.Size(86, 42);
             this.numDustBox.TabIndex = 5;
             this.numDustBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.toolTip1.SetToolTip(this.numDustBox, "Specify the maximum number of captures placed in the recycle bin. \nIf the limit is exceeded, the old image will be discarded.");
+            this.toolTip1.SetToolTip(this.numDustBox, "Specify the maximum number of captures placed in recycle bin. \nIf the limit is exceeded, the old image will be discarded.");
             // 
             // btnInitialize
             // 
@@ -440,7 +440,7 @@
             this.btnInitialize.Name = "btnInitialize";
             this.btnInitialize.Size = new System.Drawing.Size(456, 66);
             this.btnInitialize.TabIndex = 8;
-            this.btnInitialize.Text = "All settings are restored to the default";
+            this.btnInitialize.Text = "Restored to default";
             this.btnInitialize.UseVisualStyleBackColor = true;
             this.btnInitialize.Click += new System.EventHandler(this.btnInitialize_Click);
             // 
@@ -456,7 +456,7 @@
             this.groupBox6.Size = new System.Drawing.Size(1058, 220);
             this.groupBox6.TabIndex = 2;
             this.groupBox6.TabStop = false;
-            this.groupBox6.Text = "Operation type";
+            this.groupBox6.Text = "Window mode";
             // 
             // chkShowMainWindow
             // 
@@ -477,8 +477,8 @@
             this.rdoExeTypeResident.Name = "rdoExeTypeResident";
             this.rdoExeTypeResident.Size = new System.Drawing.Size(200, 34);
             this.rdoExeTypeResident.TabIndex = 1;
-            this.rdoExeTypeResident.Text = "Resident taskbar";
-            this.toolTip1.SetToolTip(this.rdoExeTypeResident, "The icon is displayed on the taskbar.");
+            this.rdoExeTypeResident.Text = "Taskbar";
+            this.toolTip1.SetToolTip(this.rdoExeTypeResident, "Icon is displayed on taskbar.");
             this.rdoExeTypeResident.UseVisualStyleBackColor = true;
             this.rdoExeTypeResident.CheckedChanged += new System.EventHandler(this.rdoExeTypeResident_CheckedChanged);
             // 
@@ -492,8 +492,8 @@
             this.rdoExeTypeApp.Size = new System.Drawing.Size(170, 34);
             this.rdoExeTypeApp.TabIndex = 0;
             this.rdoExeTypeApp.TabStop = true;
-            this.rdoExeTypeApp.Text = "App window";
-            this.toolTip1.SetToolTip(this.rdoExeTypeApp, "Show the main window, minimize to the taskbar");
+            this.rdoExeTypeApp.Text = "Application window";
+            this.toolTip1.SetToolTip(this.rdoExeTypeApp, "Show main window, minimize to taskbar");
             this.rdoExeTypeApp.UseVisualStyleBackColor = true;
             // 
             // pageCapture
@@ -539,7 +539,7 @@
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(433, 76);
             this.label16.TabIndex = 8;
-            this.label16.Text = "When you click on the specified edge of the screen, it starts to capture.";
+            this.label16.Text = "When you click on a specified edge of the screen, it starts to capture.";
             // 
             // chkCC6
             // 
@@ -697,7 +697,7 @@
             this.rdoSelLineTypeDotted.Name = "rdoSelLineTypeDotted";
             this.rdoSelLineTypeDotted.Size = new System.Drawing.Size(110, 34);
             this.rdoSelLineTypeDotted.TabIndex = 3;
-            this.rdoSelLineTypeDotted.Text = "Dotted line";
+            this.rdoSelLineTypeDotted.Text = "Dotted";
             this.toolTip1.SetToolTip(this.rdoSelLineTypeDotted, "Set the border line type of the frame selection range.");
             this.rdoSelLineTypeDotted.UseVisualStyleBackColor = true;
             // 
@@ -711,7 +711,7 @@
             this.rdoSelLineTypeSolid.Size = new System.Drawing.Size(110, 34);
             this.rdoSelLineTypeSolid.TabIndex = 2;
             this.rdoSelLineTypeSolid.TabStop = true;
-            this.rdoSelLineTypeSolid.Text = "Solid line";
+            this.rdoSelLineTypeSolid.Text = "Solid";
             this.toolTip1.SetToolTip(this.rdoSelLineTypeSolid, "Set the border line type of the frame selection range.");
             this.rdoSelLineTypeSolid.UseVisualStyleBackColor = true;
             // 
@@ -732,7 +732,7 @@
             this.numSelectAreaTrans.Name = "numSelectAreaTrans";
             this.numSelectAreaTrans.Size = new System.Drawing.Size(103, 42);
             this.numSelectAreaTrans.TabIndex = 6;
-            this.toolTip1.SetToolTip(this.numSelectAreaTrans, "Set the transparency of the fill color of the selected area. \nWhen the transparency is 100%, the response speed can be improved.");
+            this.toolTip1.SetToolTip(this.numSelectAreaTrans, "Set opacity of the fill color of selected area. \nWhen opacity is 100%, response speed can be improved.");
             // 
             // picSelectAreaBackColor
             // 
@@ -745,7 +745,7 @@
             this.picSelectAreaBackColor.Size = new System.Drawing.Size(73, 38);
             this.picSelectAreaBackColor.TabIndex = 10;
             this.picSelectAreaBackColor.TabStop = false;
-            this.toolTip1.SetToolTip(this.picSelectAreaBackColor, "Set the color to fully fill the selected area. \nSet the transparency to 100% if it is not fully painted.");
+            this.toolTip1.SetToolTip(this.picSelectAreaBackColor, "Set color to fully fill the selected area. \nSet opacity to 100% if it is not fully painted.");
             this.picSelectAreaBackColor.Click += new System.EventHandler(this.pictureBox_Click);
             // 
             // picSelectAreaLineColor
@@ -759,7 +759,7 @@
             this.picSelectAreaLineColor.Size = new System.Drawing.Size(73, 38);
             this.picSelectAreaLineColor.TabIndex = 9;
             this.picSelectAreaLineColor.TabStop = false;
-            this.toolTip1.SetToolTip(this.picSelectAreaLineColor, "Specify the color of the border line of the frame selection range.");
+            this.toolTip1.SetToolTip(this.picSelectAreaLineColor, "Specify color of the border line of the frame selection range.");
             this.picSelectAreaLineColor.Click += new System.EventHandler(this.pictureBox_Click);
             // 
             // label10
@@ -770,7 +770,7 @@
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(283, 30);
             this.label10.TabIndex = 5;
-            this.label10.Text = "Transparency of the frame selection range:";
+            this.label10.Text = "opacity of the area:";
             // 
             // label9
             // 
@@ -780,7 +780,7 @@
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(253, 30);
             this.label9.TabIndex = 4;
-            this.label9.Text = "The color of the frame selection range:";
+            this.label9.Text = "Color of the area:";
             // 
             // label8
             // 
@@ -790,7 +790,7 @@
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(223, 30);
             this.label8.TabIndex = 0;
-            this.label8.Text = "The color of the selection line:";
+            this.label8.Text = "Color of the line:";
             // 
             // label7
             // 
@@ -800,7 +800,7 @@
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(223, 30);
             this.label7.TabIndex = 1;
-            this.label7.Text = "Types of frame selection lines:";
+            this.label7.Text = "Selection line:";
             // 
             // groupBox2
             // 
@@ -837,7 +837,7 @@
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(328, 30);
             this.label17.TabIndex = 4;
-            this.label17.Text = "Hide/show all shortcut keys:";
+            this.label17.Text = "Hide/show keys:";
             // 
             // hotkeyControl1
             // 
@@ -857,7 +857,7 @@
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(201, 34);
             this.checkBox1.TabIndex = 2;
-            this.checkBox1.Text = "Enable shortcut keys";
+            this.checkBox1.Text = "Enabled";
             this.toolTip1.SetToolTip(this.checkBox1, "To enable shortcut keys, check it.");
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
@@ -869,7 +869,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(193, 30);
             this.label3.TabIndex = 1;
-            this.label3.Text = "Screenshot shortcuts:";
+            this.label3.Text = "Screenshot:";
             // 
             // pageScrap
             // 
@@ -881,7 +881,7 @@
             this.pageScrap.Padding = new System.Windows.Forms.Padding(8, 6, 8, 6);
             this.pageScrap.Size = new System.Drawing.Size(1110, 843);
             this.pageScrap.TabIndex = 2;
-            this.pageScrap.Text = "Reference image settings";
+            this.pageScrap.Text = "Recycle image settings";
             this.pageScrap.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel1
@@ -917,7 +917,7 @@
             this.cmbWClickStyle.Name = "cmbWClickStyle";
             this.cmbWClickStyle.Size = new System.Drawing.Size(460, 38);
             this.cmbWClickStyle.TabIndex = 3;
-            this.toolTip1.SetToolTip(this.cmbWClickStyle, "Specify the automated actions used when double-clicking the reference image.");
+            this.toolTip1.SetToolTip(this.cmbWClickStyle, "Specify the actions used when double-clicking the recycle image.");
             this.cmbWClickStyle.SelectionChangeCommitted += new System.EventHandler(this.cmbWClickStyle_SelectionChangeCommitted);
             // 
             // label5
@@ -939,7 +939,7 @@
             this.cmbCreateStyle.Name = "cmbCreateStyle";
             this.cmbCreateStyle.Size = new System.Drawing.Size(460, 38);
             this.cmbCreateStyle.TabIndex = 1;
-            this.toolTip1.SetToolTip(this.cmbCreateStyle, "You can specify the automated actions to be used when creating a reference map.");
+            this.toolTip1.SetToolTip(this.cmbCreateStyle, "You can specify the actions to be used when creating a reference map.");
             this.cmbCreateStyle.SelectionChangeCommitted += new System.EventHandler(this.cmbCreateStyle_SelectionChangeCommitted);
             // 
             // label4
@@ -950,7 +950,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(223, 30);
             this.label4.TabIndex = 0;
-            this.label4.Text = "Basic automated actions:";
+            this.label4.Text = "Basic actions:";
             // 
             // panel4
             // 
@@ -970,8 +970,8 @@
             this.chkScrapImageDrag.Name = "chkScrapImageDrag";
             this.chkScrapImageDrag.Size = new System.Drawing.Size(441, 34);
             this.chkScrapImageDrag.TabIndex = 0;
-            this.chkScrapImageDrag.Text = "Drag the image file to create a reference image";
-            this.toolTip1.SetToolTip(this.chkScrapImageDrag, "Drag the image file to the Reference image to view it as a reference image.");
+            this.chkScrapImageDrag.Text = "Drag the image file to create a recycle image";
+            this.toolTip1.SetToolTip(this.chkScrapImageDrag, "Drag the image file to the recycle image to view it as a Recycle image.");
             this.chkScrapImageDrag.UseVisualStyleBackColor = true;
             // 
             // groupBox11
@@ -1029,8 +1029,8 @@
             this.chkMouseOverAlphaChange.Name = "chkMouseOverAlphaChange";
             this.chkMouseOverAlphaChange.Size = new System.Drawing.Size(351, 34);
             this.chkMouseOverAlphaChange.TabIndex = 5;
-            this.chkMouseOverAlphaChange.Text = "Change the opacity of the reference image";
-            this.toolTip1.SetToolTip(this.chkMouseOverAlphaChange, "Set the transparency of the reference image when the mouse cursor is on the reference image. \nIf the response speed is very slow, please close it.");
+            this.chkMouseOverAlphaChange.Text = "Change the opacity";
+            this.toolTip1.SetToolTip(this.chkMouseOverAlphaChange, "Set the opacity of the reference image when the mouse cursor is on the recycle image. \nIf the response speed is very slow, please close it.");
             this.chkMouseOverAlphaChange.UseVisualStyleBackColor = true;
             // 
             // label11
@@ -1069,8 +1069,8 @@
             this.chkInactiveAlphaChange.Name = "chkInactiveAlphaChange";
             this.chkInactiveAlphaChange.Size = new System.Drawing.Size(351, 34);
             this.chkInactiveAlphaChange.TabIndex = 1;
-            this.chkInactiveAlphaChange.Text = "Change the opacity of the reference image";
-            this.toolTip1.SetToolTip(this.chkInactiveAlphaChange, "Set the transparency of the reference image after the mouse cursor leaves the reference image. \nIf the response speed is very slow, please close it.");
+            this.chkInactiveAlphaChange.Text = "opacity of the reference image";
+            this.toolTip1.SetToolTip(this.chkInactiveAlphaChange, "Set the opacity of the reference image after the mouse cursor leaves the recycle image. \nIf the response speed is very slow, please close it.");
             this.chkInactiveAlphaChange.UseVisualStyleBackColor = true;
             // 
             // pageStyle
@@ -1083,7 +1083,7 @@
             this.pageStyle.Padding = new System.Windows.Forms.Padding(13, 14, 13, 14);
             this.pageStyle.Size = new System.Drawing.Size(1110, 843);
             this.pageStyle.TabIndex = 0;
-            this.pageStyle.Text = "Edit automated actions";
+            this.pageStyle.Text = "Edit actions";
             this.pageStyle.UseVisualStyleBackColor = true;
             // 
             // groupBox1
@@ -1104,7 +1104,7 @@
             this.groupBox1.Size = new System.Drawing.Size(1058, 766);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Automated actions list";
+            this.groupBox1.Text = "Action list";
             // 
             // button1
             // 
@@ -1120,7 +1120,7 @@
             // listStyles
             // 
             this.listStyles.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.listStyles.Font = System.Drawing.SystemFonts.MenuFont;
+            this.listStyles.Font = System.Drawing.SystemFonts.DefaultFont;
             this.listStyles.FormattingEnabled = true;
             this.listStyles.ItemDragMove = true;
             this.listStyles.ItemHeight = 20;
@@ -1166,7 +1166,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(253, 30);
             this.label1.TabIndex = 4;
-            this.label1.Text = "Composition of automated actions:";
+            this.label1.Text = "Composition of actions:";
             // 
             // btnEditStyle
             // 
@@ -1227,7 +1227,7 @@
             this.pageScrapMenu.Padding = new System.Windows.Forms.Padding(13, 14, 13, 14);
             this.pageScrapMenu.Size = new System.Drawing.Size(1110, 843);
             this.pageScrapMenu.TabIndex = 3;
-            this.pageScrapMenu.Text = "Reference image Menu";
+            this.pageScrapMenu.Text = "Recycle image Menu";
             this.pageScrapMenu.UseVisualStyleBackColor = true;
             // 
             // btnScrapMenuMove
@@ -1251,12 +1251,12 @@
             this.groupBox10.Size = new System.Drawing.Size(454, 764);
             this.groupBox10.TabIndex = 3;
             this.groupBox10.TabStop = false;
-            this.groupBox10.Text = "Reference image Menu";
+            this.groupBox10.Text = "Recycle image Menu";
             // 
             // listScrapMenuList
             // 
             this.listScrapMenuList.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.listScrapMenuList.Font = System.Drawing.SystemFonts.MenuFont;
+            this.listScrapMenuList.Font = System.Drawing.SystemFonts.DefaultFont;
             this.listScrapMenuList.FormattingEnabled = true;
             this.listScrapMenuList.IntegralHeight = false;
             this.listScrapMenuList.ItemDragMove = true;
@@ -1270,7 +1270,7 @@
             this.listScrapMenuList.Name = "listScrapMenuList";
             this.listScrapMenuList.Size = new System.Drawing.Size(407, 690);
             this.listScrapMenuList.TabIndex = 0;
-            this.toolTip1.SetToolTip(this.listScrapMenuList, "The structure of the menu displayed when you right-click the reference image.");
+            this.toolTip1.SetToolTip(this.listScrapMenuList, "The structure of the menu displayed when you right-click the recycle image.");
             // 
             // groupBox9
             // 
@@ -1287,7 +1287,7 @@
             // listScrapMenuItems
             // 
             this.listScrapMenuItems.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.listScrapMenuItems.Font = System.Drawing.SystemFonts.MenuFont;
+            this.listScrapMenuItems.Font = System.Drawing.SystemFonts.DefaultFont;
             this.listScrapMenuItems.FormattingEnabled = true;
             this.listScrapMenuItems.ItemDragMove = false;
             this.listScrapMenuItems.ItemHeight = 20;
@@ -1313,12 +1313,12 @@
             this.groupBox8.Size = new System.Drawing.Size(456, 474);
             this.groupBox8.TabIndex = 0;
             this.groupBox8.TabStop = false;
-            this.groupBox8.Text = "Automated action list";
+            this.groupBox8.Text = "Action list";
             // 
             // listScrapMenuStyles
             // 
             this.listScrapMenuStyles.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.listScrapMenuStyles.Font = System.Drawing.SystemFonts.MenuFont;
+            this.listScrapMenuStyles.Font = System.Drawing.SystemFonts.DefaultFont;
             this.listScrapMenuStyles.FormattingEnabled = true;
             this.listScrapMenuStyles.ItemDragMove = false;
             this.listScrapMenuStyles.ItemHeight = 20;
@@ -1422,7 +1422,7 @@
             this.radioButton2_fullscreenCursor.Name = "radioButton2_fullscreenCursor";
             this.radioButton2_fullscreenCursor.Size = new System.Drawing.Size(110, 34);
             this.radioButton2_fullscreenCursor.TabIndex = 17;
-            this.radioButton2_fullscreenCursor.Text = "Dotted line";
+            this.radioButton2_fullscreenCursor.Text = "Dotted";
             this.toolTip1.SetToolTip(this.radioButton2_fullscreenCursor, "Set the border line type of the frame selection range.");
             this.radioButton2_fullscreenCursor.UseVisualStyleBackColor = true;
             // 
@@ -1436,7 +1436,7 @@
             this.radioButton1_fullscreenCursor.Size = new System.Drawing.Size(110, 34);
             this.radioButton1_fullscreenCursor.TabIndex = 16;
             this.radioButton1_fullscreenCursor.TabStop = true;
-            this.radioButton1_fullscreenCursor.Text = "Solid line";
+            this.radioButton1_fullscreenCursor.Text = "Solid";
             this.toolTip1.SetToolTip(this.radioButton1_fullscreenCursor, "Set the border line type of the frame selection range.");
             this.radioButton1_fullscreenCursor.UseVisualStyleBackColor = true;
             // 
@@ -1448,7 +1448,7 @@
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(223, 30);
             this.label18.TabIndex = 14;
-            this.label18.Text = "The color of the selection line:";
+            this.label18.Text = "Color of the line:";
             // 
             // pictureBox_fullscreenCursor
             // 
@@ -1472,7 +1472,7 @@
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(223, 30);
             this.label19.TabIndex = 15;
-            this.label19.Text = "Types of frame selection lines:";
+            this.label19.Text = "Frame line:";
             // 
             // groupBox15
             // 
@@ -1494,7 +1494,7 @@
             this.checkBox_transparent.Name = "checkBox_transparent";
             this.checkBox_transparent.Size = new System.Drawing.Size(441, 34);
             this.checkBox_transparent.TabIndex = 6;
-            this.checkBox_transparent.Text = "Whether the mouse can penetrate the transparent part of the screenshot";
+            this.checkBox_transparent.Text = "Mouse can penetrate the transparent part of screenshots";
             this.checkBox_transparent.UseVisualStyleBackColor = true;
             // 
             // panel1
@@ -1539,7 +1539,7 @@
             this.lblMenuStyle.Name = "lblMenuStyle";
             this.lblMenuStyle.Size = new System.Drawing.Size(249, 34);
             this.lblMenuStyle.TabIndex = 2;
-            this.lblMenuStyle.Text = "Create automated actions";
+            this.lblMenuStyle.Text = "Create actions";
             this.lblMenuStyle.Click += new System.EventHandler(this.lblMenuStyle_Click);
             this.lblMenuStyle.MouseEnter += new System.EventHandler(this.lblMenuStyle_MouseEnter);
             this.lblMenuStyle.MouseLeave += new System.EventHandler(this.lblMenu_Clear);
@@ -1584,7 +1584,7 @@
             this.lblMenuScrap.Name = "lblMenuScrap";
             this.lblMenuScrap.Size = new System.Drawing.Size(249, 34);
             this.lblMenuScrap.TabIndex = 1;
-            this.lblMenuScrap.Text = "Reference image settings";
+            this.lblMenuScrap.Text = "Recycle image settings";
             this.lblMenuScrap.Click += new System.EventHandler(this.lblMenuScrap_Click);
             this.lblMenuScrap.MouseEnter += new System.EventHandler(this.lblMenuScrap_MouseEnter);
             this.lblMenuScrap.MouseLeave += new System.EventHandler(this.lblMenu_Clear);
@@ -1593,7 +1593,7 @@
             // 
             this.lblMenuAll.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(132)))), ((int)(((byte)(215)))));
             this.lblMenuAll.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblMenuAll.Font = System.Drawing.SystemFonts.MenuFont;
+            this.lblMenuAll.Font = System.Drawing.SystemFonts.DefaultFont;
             this.lblMenuAll.ForeColor = System.Drawing.Color.White;
             this.lblMenuAll.Location = new System.Drawing.Point(30, 24);
             this.lblMenuAll.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);

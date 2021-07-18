@@ -105,7 +105,7 @@ namespace SETUNA.Main.Option
         {
             if (txtStyleName.Text.Trim().Length == 0)
             {
-                MessageBox.Show("Enter the automated action name.", Text, MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                MessageBox.Show("Enter the action name.", Text, MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                 txtStyleName.Focus();
                 return;
             }

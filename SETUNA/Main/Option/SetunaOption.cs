@@ -228,7 +228,7 @@ namespace SETUNA.Main.Option
             cstyle = new CStyle
             {
                 StyleID = num++,
-                StyleName = "Increase transparency"
+                StyleName = "Increase Opacity"
             };
             cstyle.AddStyle(new COpacityStyleItem
             {
@@ -240,7 +240,7 @@ namespace SETUNA.Main.Option
             cstyle = new CStyle
             {
                 StyleID = num++,
-                StyleName = "Increase transparency (Fine tuning)"
+                StyleName = "Increase Opacity (Fine tuning)"
             };
             cstyle.AddStyle(new COpacityStyleItem
             {
@@ -252,7 +252,7 @@ namespace SETUNA.Main.Option
             cstyle = new CStyle
             {
                 StyleID = num++,
-                StyleName = "Reduce transparency"
+                StyleName = "Reduce Opacity"
             };
             cstyle.AddStyle(new COpacityStyleItem
             {
@@ -264,7 +264,7 @@ namespace SETUNA.Main.Option
             cstyle = new CStyle
             {
                 StyleID = num++,
-                StyleName = "Reduce transparency (Fine tuning)"
+                StyleName = "Reduce Opacity (Fine tuning)"
             };
             cstyle.AddStyle(new COpacityStyleItem
             {
@@ -509,7 +509,7 @@ namespace SETUNA.Main.Option
             cstyle = new CStyle
             {
                 StyleID = num++,
-                StyleName = "Basic automated actions"
+                StyleName = "Basic actions"
             };
             cstyle.AddStyle(new CMarginStyleItem
             {

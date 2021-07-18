@@ -36,7 +36,7 @@
             this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.Font = System.Drawing.SystemFonts.MenuFont;
+            this.button1.Font = System.Drawing.SystemFonts.DefaultFont;
             this.button1.ForeColor = System.Drawing.Color.Gray;
             this.button1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.button1.Location = new System.Drawing.Point(0, 0);
@@ -50,7 +50,7 @@
             // button4
             // 
             this.button4.Dock = System.Windows.Forms.DockStyle.Right;
-            this.button4.Font = System.Drawing.SystemFonts.MenuFont;
+            this.button4.Font = System.Drawing.SystemFonts.DefaultFont;
             this.button4.ForeColor = System.Drawing.Color.Gray;
             this.button4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.button4.Location = new System.Drawing.Point(252, 0);

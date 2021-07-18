@@ -115,7 +115,7 @@ namespace SETUNA.Main.StyleItems
                 }
                 catch
                 {
-                    MessageBox.Show("文件夹名无效。", Application.ProductName, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    MessageBox.Show("Invalid folder name.", Application.ProductName, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                     txtFolder.Focus();
                     return;
                 }
@@ -124,7 +124,7 @@ namespace SETUNA.Main.StyleItems
             {
                 if (txtName.Text == "")
                 {
-                    MessageBox.Show("没有指定文件名。", Application.ProductName, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    MessageBox.Show("No file name was specified.", Application.ProductName, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                     txtName.Focus();
                     return;
                 }
@@ -133,7 +133,7 @@ namespace SETUNA.Main.StyleItems
                 {
                     if (txtName.Text.IndexOf(value) > -1)
                     {
-                        MessageBox.Show("文件名无效。", Application.ProductName, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                        MessageBox.Show("Invalid file name.", Application.ProductName, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                         txtName.Focus();
                         return;
                     }

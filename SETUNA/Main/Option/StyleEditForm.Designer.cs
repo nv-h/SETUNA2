@@ -50,24 +50,24 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = System.Drawing.SystemFonts.MenuFont;
+            this.label1.Font = System.Drawing.SystemFonts.DefaultFont;
             this.label1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.label1.Location = new System.Drawing.Point(1, 303);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(83, 12);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Automated action name:";
+            this.label1.Text = "Action name:";
             // 
             // txtStyleName
             // 
             this.txtStyleName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(230)))), ((int)(((byte)(247)))));
-            this.txtStyleName.Font = System.Drawing.SystemFonts.MenuFont;
+            this.txtStyleName.Font = System.Drawing.SystemFonts.DefaultFont;
             this.txtStyleName.ImeMode = System.Windows.Forms.ImeMode.On;
             this.txtStyleName.Location = new System.Drawing.Point(3, 317);
             this.txtStyleName.Name = "txtStyleName";
             this.txtStyleName.Size = new System.Drawing.Size(193, 23);
             this.txtStyleName.TabIndex = 1;
-            this.toolTip2.SetToolTip(this.txtStyleName, "You can name specific automated action.");
+            this.toolTip2.SetToolTip(this.txtStyleName, "You can name specific action.");
             this.txtStyleName.TextChanged += new System.EventHandler(this.txtStyleName_TextChanged);
             // 
             // toolTip1
@@ -146,7 +146,7 @@
             this.listKeys.Name = "listKeys";
             this.listKeys.Size = new System.Drawing.Size(169, 78);
             this.listKeys.TabIndex = 4;
-            this.toolTip2.SetToolTip(this.listKeys, "Select the reference image, if you click the assigned shortcut key, the automatic operation will be applied.");
+            this.toolTip2.SetToolTip(this.listKeys, "Select the recycle image, if you click the assigned shortcut key, the action will be applied.");
             // 
             // btnKeyEntry
             // 
@@ -210,7 +210,7 @@
             this.groupBox2.Size = new System.Drawing.Size(557, 362);
             this.groupBox2.TabIndex = 0;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Automated actions";
+            this.groupBox2.Text = "Actions";
             // 
             // listStyleItem
             // 
@@ -218,9 +218,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.listStyleItem.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.listStyleItem.Font = System.Drawing.SystemFonts.MenuFont;
+            this.listStyleItem.Font = System.Drawing.SystemFonts.DefaultFont;
             this.listStyleItem.FormattingEnabled = true;
-            this.listStyleItem.HelpFont = System.Drawing.SystemFonts.MenuFont;
+            this.listStyleItem.HelpFont = System.Drawing.SystemFonts.DefaultFont;
             this.listStyleItem.HelpForeColor = System.Drawing.Color.SteelBlue;
             this.listStyleItem.IntegralHeight = false;
             this.listStyleItem.ItemDragMove = true;
@@ -238,7 +238,7 @@
             this.listStyleItem.Size = new System.Drawing.Size(250, 307);
             this.listStyleItem.TabIndex = 4;
             this.listStyleItem.TerminateEnd = true;
-            this.toolTip2.SetToolTip(this.listStyleItem, "Automated actions are applied sequentially from top to bottom.");
+            this.toolTip2.SetToolTip(this.listStyleItem, "Actions are applied sequentially from top to bottom.");
             this.listStyleItem.Click += new System.EventHandler(this.listAllStyleItem_Click);
             this.listStyleItem.DoubleClick += new System.EventHandler(this.listStyleItem_DoubleClick);
             // 
@@ -247,9 +247,9 @@
             this.listAllStyleItem.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.listAllStyleItem.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.listAllStyleItem.Font = System.Drawing.SystemFonts.MenuFont;
+            this.listAllStyleItem.Font = System.Drawing.SystemFonts.DefaultFont;
             this.listAllStyleItem.FormattingEnabled = true;
-            this.listAllStyleItem.HelpFont = System.Drawing.SystemFonts.MenuFont;
+            this.listAllStyleItem.HelpFont = System.Drawing.SystemFonts.DefaultFont;
             this.listAllStyleItem.HelpForeColor = System.Drawing.Color.SteelBlue;
             this.listAllStyleItem.IntegralHeight = false;
             this.listAllStyleItem.ItemDragMove = false;
@@ -287,12 +287,12 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(89, 12);
             this.label2.TabIndex = 0;
-            this.label2.Text = "Automated action list:";
+            this.label2.Text = "Action list:";
             // 
             // btnItemDelete
             // 
             this.btnItemDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnItemDelete.Font = System.Drawing.SystemFonts.MenuFont;
+            this.btnItemDelete.Font = System.Drawing.SystemFonts.DefaultFont;
             this.btnItemDelete.Image = global::SETUNA.Properties.Resources.Close;
             this.btnItemDelete.Location = new System.Drawing.Point(517, 14);
             this.btnItemDelete.Name = "btnItemDelete";
@@ -317,7 +317,7 @@
             // btnItemDown
             // 
             this.btnItemDown.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnItemDown.Font = System.Drawing.SystemFonts.MenuFont;
+            this.btnItemDown.Font = System.Drawing.SystemFonts.DefaultFont;
             this.btnItemDown.Image = global::SETUNA.Properties.Resources.ArrowDown;
             this.btnItemDown.Location = new System.Drawing.Point(456, 14);
             this.btnItemDown.Name = "btnItemDown";
@@ -330,7 +330,7 @@
             // btnItemUp
             // 
             this.btnItemUp.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnItemUp.Font = System.Drawing.SystemFonts.MenuFont;
+            this.btnItemUp.Font = System.Drawing.SystemFonts.DefaultFont;
             this.btnItemUp.Image = global::SETUNA.Properties.Resources.ArrowUp;
             this.btnItemUp.Location = new System.Drawing.Point(484, 14);
             this.btnItemUp.Name = "btnItemUp";

@@ -411,7 +411,7 @@ namespace SETUNA.Main.Option
             var styleEditForm = styleEditForm2 = new StyleEditForm(cstyle, keybook);
             try
             {
-                styleEditForm.Text = "New automatic operation";
+                styleEditForm.Text = "New action";
                 var dialogResult = styleEditForm.ShowDialog();
                 if (dialogResult == DialogResult.OK)
                 {
@@ -440,7 +440,7 @@ namespace SETUNA.Main.Option
                 cstyle.ClearKey();
                 var dialogResult = new StyleEditForm(cstyle, keybook)
                 {
-                    Text = "New automatic operation"
+                    Text = "New action"
                 }.ShowDialog();
                 if (dialogResult == DialogResult.OK)
                 {
@@ -731,7 +731,7 @@ namespace SETUNA.Main.Option
         // Token: 0x06000303 RID: 771 RVA: 0x00014B6D File Offset: 0x00012D6D
         private void lblMenuStyle_MouseEnter(object sender, EventArgs e)
         {
-            lblComment.Text = "Automatic operation configurations";
+            lblComment.Text = "Actions configurations";
         }
 
         // Token: 0x06000304 RID: 772 RVA: 0x00014B7F File Offset: 0x00012D7F
