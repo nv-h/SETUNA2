@@ -50,24 +50,24 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label1.Font = System.Drawing.SystemFonts.MenuFont;
             this.label1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.label1.Location = new System.Drawing.Point(1, 303);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(83, 12);
             this.label1.TabIndex = 0;
-            this.label1.Text = "自动操作名∶";
+            this.label1.Text = "Automated action name:";
             // 
             // txtStyleName
             // 
             this.txtStyleName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(230)))), ((int)(((byte)(247)))));
-            this.txtStyleName.Font = new System.Drawing.Font("宋体", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.txtStyleName.Font = System.Drawing.SystemFonts.MenuFont;
             this.txtStyleName.ImeMode = System.Windows.Forms.ImeMode.On;
             this.txtStyleName.Location = new System.Drawing.Point(3, 317);
             this.txtStyleName.Name = "txtStyleName";
             this.txtStyleName.Size = new System.Drawing.Size(193, 23);
             this.txtStyleName.TabIndex = 1;
-            this.toolTip2.SetToolTip(this.txtStyleName, "您可以对具体自动操作命名。");
+            this.toolTip2.SetToolTip(this.txtStyleName, "You can name specific automated action.");
             this.txtStyleName.TextChanged += new System.EventHandler(this.txtStyleName_TextChanged);
             // 
             // toolTip1
@@ -107,7 +107,7 @@
             this.groupBox1.Size = new System.Drawing.Size(193, 212);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "指定快捷键";
+            this.groupBox1.Text = "Assign shortcut keys";
             // 
             // label5
             // 
@@ -116,7 +116,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(77, 12);
             this.label5.TabIndex = 3;
-            this.label5.Text = "快捷键分配：";
+            this.label5.Text = "Shortcut key assignment:";
             // 
             // label4
             // 
@@ -125,7 +125,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(53, 12);
             this.label4.TabIndex = 0;
-            this.label4.Text = "快捷键：";
+            this.label4.Text = "Shortcut key:";
             // 
             // btnKeyDelete
             // 
@@ -133,7 +133,7 @@
             this.btnKeyDelete.Name = "btnKeyDelete";
             this.btnKeyDelete.Size = new System.Drawing.Size(48, 24);
             this.btnKeyDelete.TabIndex = 5;
-            this.btnKeyDelete.Text = "删除";
+            this.btnKeyDelete.Text = "Delete";
             this.btnKeyDelete.UseVisualStyleBackColor = true;
             this.btnKeyDelete.Click += new System.EventHandler(this.btnKeyDelete_Click);
             // 
@@ -146,7 +146,7 @@
             this.listKeys.Name = "listKeys";
             this.listKeys.Size = new System.Drawing.Size(169, 78);
             this.listKeys.TabIndex = 4;
-            this.toolTip2.SetToolTip(this.listKeys, "选择参考图，如果点击分配的快捷键则应用自动操作。");
+            this.toolTip2.SetToolTip(this.listKeys, "Select the reference image, if you click the assigned shortcut key, the automatic operation will be applied.");
             // 
             // btnKeyEntry
             // 
@@ -154,7 +154,7 @@
             this.btnKeyEntry.Name = "btnKeyEntry";
             this.btnKeyEntry.Size = new System.Drawing.Size(48, 24);
             this.btnKeyEntry.TabIndex = 2;
-            this.btnKeyEntry.Text = "登记";
+            this.btnKeyEntry.Text = "Register";
             this.btnKeyEntry.UseVisualStyleBackColor = true;
             this.btnKeyEntry.Click += new System.EventHandler(this.btnKeyEntry_Click);
             this.btnKeyEntry.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.hotkey_KeyPress);
@@ -166,7 +166,7 @@
             this.btnOk.Name = "btnOk";
             this.btnOk.Size = new System.Drawing.Size(103, 28);
             this.btnOk.TabIndex = 1;
-            this.btnOk.Text = "确定";
+            this.btnOk.Text = "OK";
             this.btnOk.UseVisualStyleBackColor = true;
             this.btnOk.Click += new System.EventHandler(this.btnOk_Click);
             // 
@@ -178,7 +178,7 @@
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(84, 28);
             this.btnCancel.TabIndex = 2;
-            this.btnCancel.Text = "取消";
+            this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
@@ -210,7 +210,7 @@
             this.groupBox2.Size = new System.Drawing.Size(557, 362);
             this.groupBox2.TabIndex = 0;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "自动操作的装配";
+            this.groupBox2.Text = "Automated actions";
             // 
             // listStyleItem
             // 
@@ -218,9 +218,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.listStyleItem.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.listStyleItem.Font = new System.Drawing.Font("黑体", 10F);
+            this.listStyleItem.Font = System.Drawing.SystemFonts.MenuFont;
             this.listStyleItem.FormattingEnabled = true;
-            this.listStyleItem.HelpFont = new System.Drawing.Font("黑体", 8F);
+            this.listStyleItem.HelpFont = System.Drawing.SystemFonts.MenuFont;
             this.listStyleItem.HelpForeColor = System.Drawing.Color.SteelBlue;
             this.listStyleItem.IntegralHeight = false;
             this.listStyleItem.ItemDragMove = true;
@@ -229,16 +229,16 @@
             this.listStyleItem.ItemLine = true;
             this.listStyleItem.ItemLineColor = System.Drawing.Color.LightSteelBlue;
             this.listStyleItem.Items.AddRange(new object[] {
-            "第1项",
-            "第2项",
-            "第3项"});
+            "Item 1",
+            "Item 2",
+            "Item 3"});
             this.listStyleItem.LeftSpace = 34;
             this.listStyleItem.Location = new System.Drawing.Point(296, 40);
             this.listStyleItem.Name = "listStyleItem";
             this.listStyleItem.Size = new System.Drawing.Size(250, 307);
             this.listStyleItem.TabIndex = 4;
             this.listStyleItem.TerminateEnd = true;
-            this.toolTip2.SetToolTip(this.listStyleItem, "自上而下依次应用自动操作项目。");
+            this.toolTip2.SetToolTip(this.listStyleItem, "Automated actions are applied sequentially from top to bottom.");
             this.listStyleItem.Click += new System.EventHandler(this.listAllStyleItem_Click);
             this.listStyleItem.DoubleClick += new System.EventHandler(this.listStyleItem_DoubleClick);
             // 
@@ -247,9 +247,9 @@
             this.listAllStyleItem.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.listAllStyleItem.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.listAllStyleItem.Font = new System.Drawing.Font("黑体", 10F);
+            this.listAllStyleItem.Font = System.Drawing.SystemFonts.MenuFont;
             this.listAllStyleItem.FormattingEnabled = true;
-            this.listAllStyleItem.HelpFont = new System.Drawing.Font("黑体", 8F);
+            this.listAllStyleItem.HelpFont = System.Drawing.SystemFonts.MenuFont;
             this.listAllStyleItem.HelpForeColor = System.Drawing.Color.SteelBlue;
             this.listAllStyleItem.IntegralHeight = false;
             this.listAllStyleItem.ItemDragMove = false;
@@ -258,9 +258,9 @@
             this.listAllStyleItem.ItemLine = true;
             this.listAllStyleItem.ItemLineColor = System.Drawing.Color.LightSteelBlue;
             this.listAllStyleItem.Items.AddRange(new object[] {
-            "第1项",
-            "第2项",
-            "第3项"});
+            "Item 1",
+            "Item 2",
+            "Item 3"});
             this.listAllStyleItem.LeftSpace = 34;
             this.listAllStyleItem.Location = new System.Drawing.Point(9, 40);
             this.listAllStyleItem.Name = "listAllStyleItem";
@@ -278,7 +278,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(65, 12);
             this.label3.TabIndex = 3;
-            this.label3.Text = "登记方式：";
+            this.label3.Text = "Registration method:";
             // 
             // label2
             // 
@@ -287,18 +287,18 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(89, 12);
             this.label2.TabIndex = 0;
-            this.label2.Text = "自动操作列表：";
+            this.label2.Text = "Automated action list:";
             // 
             // btnItemDelete
             // 
             this.btnItemDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnItemDelete.Font = new System.Drawing.Font("宋体", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.btnItemDelete.Font = System.Drawing.SystemFonts.MenuFont;
             this.btnItemDelete.Image = global::SETUNA.Properties.Resources.Close;
             this.btnItemDelete.Location = new System.Drawing.Point(517, 14);
             this.btnItemDelete.Name = "btnItemDelete";
             this.btnItemDelete.Size = new System.Drawing.Size(29, 23);
             this.btnItemDelete.TabIndex = 7;
-            this.toolTip2.SetToolTip(this.btnItemDelete, "删除选定的项目。");
+            this.toolTip2.SetToolTip(this.btnItemDelete, "Delete the selected item.");
             this.btnItemDelete.UseVisualStyleBackColor = true;
             this.btnItemDelete.Click += new System.EventHandler(this.btnItemDelete_Click);
             // 
@@ -317,26 +317,26 @@
             // btnItemDown
             // 
             this.btnItemDown.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnItemDown.Font = new System.Drawing.Font("宋体", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.btnItemDown.Font = System.Drawing.SystemFonts.MenuFont;
             this.btnItemDown.Image = global::SETUNA.Properties.Resources.ArrowDown;
             this.btnItemDown.Location = new System.Drawing.Point(456, 14);
             this.btnItemDown.Name = "btnItemDown";
             this.btnItemDown.Size = new System.Drawing.Size(29, 23);
             this.btnItemDown.TabIndex = 5;
-            this.toolTip2.SetToolTip(this.btnItemDown, "更改选定项目的顺序。");
+            this.toolTip2.SetToolTip(this.btnItemDown, "Change the order of selected items.");
             this.btnItemDown.UseVisualStyleBackColor = true;
             this.btnItemDown.Click += new System.EventHandler(this.btnItemDown_Click);
             // 
             // btnItemUp
             // 
             this.btnItemUp.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnItemUp.Font = new System.Drawing.Font("宋体", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.btnItemUp.Font = System.Drawing.SystemFonts.MenuFont;
             this.btnItemUp.Image = global::SETUNA.Properties.Resources.ArrowUp;
             this.btnItemUp.Location = new System.Drawing.Point(484, 14);
             this.btnItemUp.Name = "btnItemUp";
             this.btnItemUp.Size = new System.Drawing.Size(29, 23);
             this.btnItemUp.TabIndex = 6;
-            this.toolTip2.SetToolTip(this.btnItemUp, "更改选定项目的顺序。");
+            this.toolTip2.SetToolTip(this.btnItemUp, "Change the order of selected items.");
             this.btnItemUp.UseVisualStyleBackColor = true;
             this.btnItemUp.Click += new System.EventHandler(this.btnItemUp_Click);
             // 
@@ -347,7 +347,7 @@
             this.hotkey.Name = "hotkey";
             this.hotkey.Size = new global::System.Drawing.Size(169, 19);
             this.hotkey.TabIndex = 1;
-            this.toolTip2.SetToolTip(this.hotkey, "创建应用自动操作的快捷键。");
+            this.toolTip2.SetToolTip(this.hotkey, "Create shortcut keys for application automation.");
             this.hotkey.KeyUp += new global::System.Windows.Forms.KeyEventHandler(this.hotkey_KeyUp);
             // 
             // StyleEditForm

@@ -413,7 +413,7 @@ namespace SETUNA
             }
             catch
             {
-                MessageBox.Show("无法保存配置文件。", "SETUNA2", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                MessageBox.Show("Unable to save configuration file.", "SETUNA2", MessageBoxButtons.OK, MessageBoxIcon.Hand);
             }
         }
 
@@ -439,7 +439,7 @@ namespace SETUNA
             catch
             {
                 optSetuna = SetunaOption.GetDefaultOption();
-                MessageBox.Show("无法读取配置文件。\n使用默认设置。", "SETUNA2", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                MessageBox.Show("Unable to read the configuration file. \nUse default settings.", "SETUNA2", MessageBoxButtons.OK, MessageBoxIcon.Hand);
             }
             finally
             {
@@ -747,7 +747,7 @@ namespace SETUNA
         {
             if (Application.ProductVersion != version)
             {
-                MessageBox.Show("SETUNA已经运行在不同的版本。", Application.ProductName, MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                MessageBox.Show("SETUNA is already running in different versions.", Application.ProductName, MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                 return;
             }
             if (args.Length > 0)
@@ -764,7 +764,7 @@ namespace SETUNA
         // Token: 0x0600021B RID: 539 RVA: 0x0000B5A8 File Offset: 0x000097A8
         public void CommandRun(string[] args)
         {
-            Console.WriteLine("-命令行参数--------------------");
+            Console.WriteLine("-Command line parameters--------------------");
             var num = 0;
             var rect = new Rectangle(0, 0, 0, 0);
             var fname = "";
@@ -801,7 +801,7 @@ namespace SETUNA
                                 rect.Y = int.Parse(array[1]);
                                 rect.Width = int.Parse(array[2]);
                                 rect.Height = int.Parse(array[3]);
-                                Console.WriteLine("[位置]" + rect.ToString());
+                                Console.WriteLine("[position]" + rect.ToString());
                                 goto IL_1C2;
                             }
                         }

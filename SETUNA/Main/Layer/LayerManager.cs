@@ -9,20 +9,20 @@ namespace SETUNA.Main.Layer
     {
         public static readonly LayerManager Instance = new LayerManager();
 
-        // 缓存所有已打开的窗体
+        // Cache all open forms
         private Dictionary<IntPtr, FormData> formDic;
 
-        // 层级排序相关
+        // Hierarchy related
         private List<FormData> sortingFormDatas;
         private int maxSortingOrder;
 
-        // 置顶窗体
+        // Sticky form
         private FormData topMostFormData;
 
-        // 层级刷新 挂起开关
+        // Level refresh Suspend switch
         private int isSuspendCount = 0;
 
-        // 窗体过滤器
+        // Form filter
         private IWindowFilter windowFilter;
 
 
@@ -133,19 +133,19 @@ namespace SETUNA.Main.Layer
 
         void CheckRefreshLayer(WindowInfo windowInfo)
         {
-            // 是否挂起
+            // Whether to hang
             if (isSuspendCount > 0)
             {
                 return;
             }
 
-            // 是否当前项目的窗体
+            // Whether the current project's form
             if (formDic.ContainsKey(windowInfo.Handle))
             {
                 return;
             }
 
-            // 是否过滤
+            // Whether to filter
             if ((windowFilter?.IsFilter(windowInfo) ?? false == true))
             {
                 return;
@@ -158,7 +158,7 @@ namespace SETUNA.Main.Layer
             var topMostInfo = topMostFormData?.WindowInfo ?? WindowInfo.Empty;
             if (topMostInfo != WindowInfo.Empty)
             {
-                // 当前项目的顶级窗体 与 其他Windows程序的 比较 排序值
+                // Comparison of the top-level form of the current project with other Windows programs Sort value
                 if (topMostInfo.ZOrder >= windowInfo.ZOrder)
                 {
                     return;
@@ -169,7 +169,7 @@ namespace SETUNA.Main.Layer
                 {
                     var childInfo = item.WindowInfo;
 
-                    // 当前项目的所有打开的窗体 与 其他Windows程序 比较 相交性
+                    // Compare all open windows of the current project with other Windows programs.
                     if (childInfo.Rect.IntersectsWith(windowInfo.Rect))
                     {
                         hasIntersect = true;

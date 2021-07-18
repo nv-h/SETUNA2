@@ -9,7 +9,7 @@ namespace SETUNA.Main.Style
         public CScrapListStyle()
         {
             _styleid = -6;
-            _stylename = "参考图名单";
+            _stylename = "List of reference pictures";
         }
 
         // Token: 0x060002BB RID: 699 RVA: 0x0000F4E9 File Offset: 0x0000D6E9

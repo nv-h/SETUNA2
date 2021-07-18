@@ -202,16 +202,6 @@ namespace SETUNA.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap Icon_Picasa {
-            get {
-                object obj = ResourceManager.GetObject("Icon_Picasa", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
-        /// </summary>
         internal static System.Drawing.Bitmap Icon_Png {
             get {
                 object obj = ResourceManager.GetObject("Icon_Png", resourceCulture);
@@ -295,16 +285,6 @@ namespace SETUNA.Properties {
         internal static System.Drawing.Bitmap pi_text {
             get {
                 object obj = ResourceManager.GetObject("pi_text", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
-        /// </summary>
-        internal static System.Drawing.Bitmap PicasaLogo {
-            get {
-                object obj = ResourceManager.GetObject("PicasaLogo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

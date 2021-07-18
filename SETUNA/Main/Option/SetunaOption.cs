@@ -55,7 +55,7 @@ namespace SETUNA.Main.Option
             var cstyle = new CStyle
             {
                 StyleID = num++,
-                StyleName = "复制"
+                StyleName = "Copy"
             };
             cstyle.AddStyle(new CCopyStyleItem
             {
@@ -67,7 +67,7 @@ namespace SETUNA.Main.Option
             cstyle = new CStyle
             {
                 StyleID = num++,
-                StyleName = "复制（有边框）"
+                StyleName = "Copy (with border)"
             };
             cstyle.AddStyle(new CCopyStyleItem
             {
@@ -78,7 +78,7 @@ namespace SETUNA.Main.Option
             cstyle = new CStyle
             {
                 StyleID = num++,
-                StyleName = "剪切"
+                StyleName = "Cut"
             };
             cstyle.AddStyle(new CCopyStyleItem
             {
@@ -91,7 +91,7 @@ namespace SETUNA.Main.Option
             cstyle = new CStyle
             {
                 StyleID = num++,
-                StyleName = "剪切（有边框）"
+                StyleName = "Cut (with border)"
             };
             cstyle.AddStyle(new CCopyStyleItem
             {
@@ -103,7 +103,7 @@ namespace SETUNA.Main.Option
             cstyle = new CStyle
             {
                 StyleID = num++,
-                StyleName = "粘贴"
+                StyleName = "Paste"
             };
             var newCi = new CPasteStyleItem();
             cstyle.AddStyle(newCi);
@@ -113,7 +113,7 @@ namespace SETUNA.Main.Option
             cstyle = new CStyle
             {
                 StyleID = num++,
-                StyleName = "保存"
+                StyleName = "Save"
             };
             cstyle.AddStyle(new CImagePngStyleItem
             {
@@ -128,7 +128,7 @@ namespace SETUNA.Main.Option
             cstyle = new CStyle
             {
                 StyleID = num++,
-                StyleName = "保存（有边框）"
+                StyleName = "Save (with border)"
             };
             cstyle.AddStyle(new CImagePngStyleItem
             {
@@ -142,7 +142,7 @@ namespace SETUNA.Main.Option
             cstyle = new CStyle
             {
                 StyleID = num++,
-                StyleName = "旋转90度"
+                StyleName = "Rotate 90 degrees"
             };
             cstyle.AddStyle(new CRotateStyleItem
             {
@@ -154,7 +154,7 @@ namespace SETUNA.Main.Option
             cstyle = new CStyle
             {
                 StyleID = num++,
-                StyleName = "垂直翻转"
+                StyleName = "Vertical flip"
             };
             cstyle.AddStyle(new CRotateStyleItem
             {
@@ -166,7 +166,7 @@ namespace SETUNA.Main.Option
             cstyle = new CStyle
             {
                 StyleID = num++,
-                StyleName = "水平翻转"
+                StyleName = "Horizontal flip"
             };
             cstyle.AddStyle(new CRotateStyleItem
             {
@@ -178,7 +178,7 @@ namespace SETUNA.Main.Option
             cstyle = new CStyle
             {
                 StyleID = num++,
-                StyleName = "扩大"
+                StyleName = "Scale-up"
             };
             cstyle.AddStyle(new CScaleStyleItem
             {
@@ -191,7 +191,7 @@ namespace SETUNA.Main.Option
             cstyle = new CStyle
             {
                 StyleID = num++,
-                StyleName = "扩大（微调）"
+                StyleName = "Scale-up (Fine tuning)"
             };
             cstyle.AddStyle(new CScaleStyleItem
             {
@@ -203,7 +203,7 @@ namespace SETUNA.Main.Option
             cstyle = new CStyle
             {
                 StyleID = num++,
-                StyleName = "缩小"
+                StyleName = "Scale-down"
             };
             cstyle.AddStyle(new CScaleStyleItem
             {
@@ -216,7 +216,7 @@ namespace SETUNA.Main.Option
             cstyle = new CStyle
             {
                 StyleID = num++,
-                StyleName = "缩小（微调）"
+                StyleName = "Scale-down (Fine tuning)"
             };
             cstyle.AddStyle(new CScaleStyleItem
             {
@@ -228,7 +228,7 @@ namespace SETUNA.Main.Option
             cstyle = new CStyle
             {
                 StyleID = num++,
-                StyleName = "增加透明度"
+                StyleName = "Increase transparency"
             };
             cstyle.AddStyle(new COpacityStyleItem
             {
@@ -240,7 +240,7 @@ namespace SETUNA.Main.Option
             cstyle = new CStyle
             {
                 StyleID = num++,
-                StyleName = "增加透明度（微调）"
+                StyleName = "Increase transparency (Fine tuning)"
             };
             cstyle.AddStyle(new COpacityStyleItem
             {
@@ -252,7 +252,7 @@ namespace SETUNA.Main.Option
             cstyle = new CStyle
             {
                 StyleID = num++,
-                StyleName = "降低透明度"
+                StyleName = "Reduce transparency"
             };
             cstyle.AddStyle(new COpacityStyleItem
             {
@@ -264,7 +264,7 @@ namespace SETUNA.Main.Option
             cstyle = new CStyle
             {
                 StyleID = num++,
-                StyleName = "降低透明度（微调）"
+                StyleName = "Reduce transparency (Fine tuning)"
             };
             cstyle.AddStyle(new COpacityStyleItem
             {
@@ -276,7 +276,7 @@ namespace SETUNA.Main.Option
             cstyle = new CStyle
             {
                 StyleID = num++,
-                StyleName = "向上移动"
+                StyleName = "Move up"
             };
             cstyle.AddStyle(new CMoveStyleItem
             {
@@ -287,7 +287,7 @@ namespace SETUNA.Main.Option
             cstyle = new CStyle
             {
                 StyleID = num++,
-                StyleName = "向上移动（微调）"
+                StyleName = "Move up (Fine tuning)"
             };
             cstyle.AddStyle(new CMoveStyleItem
             {
@@ -298,7 +298,7 @@ namespace SETUNA.Main.Option
             cstyle = new CStyle
             {
                 StyleID = num++,
-                StyleName = "向下移动"
+                StyleName = "Move down"
             };
             cstyle.AddStyle(new CMoveStyleItem
             {
@@ -309,7 +309,7 @@ namespace SETUNA.Main.Option
             cstyle = new CStyle
             {
                 StyleID = num++,
-                StyleName = "向下移动（微调）"
+                StyleName = "Move down (Fine tuning)"
             };
             cstyle.AddStyle(new CMoveStyleItem
             {
@@ -320,7 +320,7 @@ namespace SETUNA.Main.Option
             cstyle = new CStyle
             {
                 StyleID = num++,
-                StyleName = "向左移动"
+                StyleName = "move left"
             };
             cstyle.AddStyle(new CMoveStyleItem
             {
@@ -331,7 +331,7 @@ namespace SETUNA.Main.Option
             cstyle = new CStyle
             {
                 StyleID = num++,
-                StyleName = "向左移动（微调）"
+                StyleName = "move left (Fine tuning)"
             };
             cstyle.AddStyle(new CMoveStyleItem
             {
@@ -342,7 +342,7 @@ namespace SETUNA.Main.Option
             cstyle = new CStyle
             {
                 StyleID = num++,
-                StyleName = "向右移动"
+                StyleName = "Move right"
             };
             cstyle.AddStyle(new CMoveStyleItem
             {
@@ -353,7 +353,7 @@ namespace SETUNA.Main.Option
             cstyle = new CStyle
             {
                 StyleID = num++,
-                StyleName = "向右移动（微调）"
+                StyleName = "Move right (Fine tuning)"
             };
             cstyle.AddStyle(new CMoveStyleItem
             {
@@ -364,7 +364,7 @@ namespace SETUNA.Main.Option
             cstyle = new CStyle
             {
                 StyleID = num++,
-                StyleName = "缩放为50%"
+                StyleName = "Scale to 50%"
             };
             cstyle.AddStyle(new CScaleStyleItem
             {
@@ -377,7 +377,7 @@ namespace SETUNA.Main.Option
             cstyle = new CStyle
             {
                 StyleID = num++,
-                StyleName = "缩放为60%"
+                StyleName = "Scale to 60%"
             };
             cstyle.AddStyle(new CScaleStyleItem
             {
@@ -389,7 +389,7 @@ namespace SETUNA.Main.Option
             cstyle = new CStyle
             {
                 StyleID = num++,
-                StyleName = "缩放为70%"
+                StyleName = "Scale to 70%"
             };
             cstyle.AddStyle(new CScaleStyleItem
             {
@@ -401,7 +401,7 @@ namespace SETUNA.Main.Option
             cstyle = new CStyle
             {
                 StyleID = num++,
-                StyleName = "缩放为80%"
+                StyleName = "Scale to 80%"
             };
             cstyle.AddStyle(new CScaleStyleItem
             {
@@ -413,7 +413,7 @@ namespace SETUNA.Main.Option
             cstyle = new CStyle
             {
                 StyleID = num++,
-                StyleName = "缩放为90%"
+                StyleName = "Scale to 90%"
             };
             cstyle.AddStyle(new CScaleStyleItem
             {
@@ -425,7 +425,7 @@ namespace SETUNA.Main.Option
             cstyle = new CStyle
             {
                 StyleID = num++,
-                StyleName = "缩放为100%"
+                StyleName = "Scale to 100%"
             };
             cstyle.AddStyle(new CScaleStyleItem
             {
@@ -438,7 +438,7 @@ namespace SETUNA.Main.Option
             cstyle = new CStyle
             {
                 StyleID = num++,
-                StyleName = "缩放为150%"
+                StyleName = "Scale to 150%"
             };
             cstyle.AddStyle(new CScaleStyleItem
             {
@@ -450,7 +450,7 @@ namespace SETUNA.Main.Option
             cstyle = new CStyle
             {
                 StyleID = num++,
-                StyleName = "立体边框"
+                StyleName = "3D border"
             };
             cstyle.AddStyle(new CMarginStyleItem
             {
@@ -461,7 +461,7 @@ namespace SETUNA.Main.Option
             cstyle = new CStyle
             {
                 StyleID = num++,
-                StyleName = "单色边框"
+                StyleName = "Monochrome border"
             };
             cstyle.AddStyle(new CMarginStyleItem
             {
@@ -476,7 +476,7 @@ namespace SETUNA.Main.Option
             cstyle = new CStyle
             {
                 StyleID = num++,
-                StyleName = "窗口化"
+                StyleName = "Windowed"
             };
             cstyle.AddStyle(new CMarginStyleItem
             {
@@ -487,7 +487,7 @@ namespace SETUNA.Main.Option
             cstyle = new CStyle
             {
                 StyleID = num++,
-                StyleName = "无边框"
+                StyleName = "No border"
             };
             cstyle.AddStyle(new CMarginStyleItem
             {
@@ -499,7 +499,7 @@ namespace SETUNA.Main.Option
             cstyle = new CStyle
             {
                 StyleID = num++,
-                StyleName = "关闭"
+                StyleName = "Close"
             };
             var newCi2 = new CCloseStyleItem();
             cstyle.AddStyle(newCi2);
@@ -509,7 +509,7 @@ namespace SETUNA.Main.Option
             cstyle = new CStyle
             {
                 StyleID = num++,
-                StyleName = "基本自动操作"
+                StyleName = "Basic automated actions"
             };
             cstyle.AddStyle(new CMarginStyleItem
             {
@@ -525,7 +525,7 @@ namespace SETUNA.Main.Option
             cstyle = new CStyle
             {
                 StyleID = num++,
-                StyleName = "收缩"
+                StyleName = "Shrink"
             };
             cstyle.AddStyle(new CCompactStyleItem
             {
@@ -538,7 +538,7 @@ namespace SETUNA.Main.Option
             cstyle = new CStyle
             {
                 StyleID = num++,
-                StyleName = "修剪"
+                StyleName = "Trim"
             };
             var newCi3 = new CTrimStyleItem();
             cstyle.AddStyle(newCi3);

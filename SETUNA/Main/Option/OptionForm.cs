@@ -20,20 +20,29 @@ namespace SETUNA.Main.Option
             _so = opt;
             LoadSetunaOption();
 
-            linkLabel1.Text = "官方版本（地址已挂）";
+            linkLabel1.Text = "Official version (address has been linked)";
             linkLabel1.Links.Add(0, linkLabel1.Text.Length, URLUtils.OriginURL);
             linkLabel1.LinkClicked += LinkLabel1_LinkClicked;
             toolTip1.SetToolTip(linkLabel1, URLUtils.OriginURL);
 
-            linkLabel2.Text = $"优化版本 by tylearymf. Version: {System.Reflection.Assembly.GetExecutingAssembly().GetName().Version}";
+            linkLabel2.Text = $"Optimized version by tylearymf. Version: {System.Reflection.Assembly.GetExecutingAssembly().GetName().Version}";
             linkLabel2.Links.Add(0, linkLabel2.Text.Length, URLUtils.NewURL);
             linkLabel2.LinkClicked += LinkLabel2_LinkClicked;
             toolTip1.SetToolTip(linkLabel2, URLUtils.NewURL);
+
+            linkLabel3.Text = $"Optimized and English version by nv-h. Version: {System.Reflection.Assembly.GetExecutingAssembly().GetName().Version}";
+            linkLabel3.Links.Add(0, linkLabel3.Text.Length, URLUtils.NewEnglishURL);
+            linkLabel3.LinkClicked += LinkLabel3_LinkClicked;
+            toolTip1.SetToolTip(linkLabel3, URLUtils.NewEnglishURL);
         }
 
         private void LinkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             System.Diagnostics.Process.Start(linkLabel2.Links[0].LinkData.ToString());
+        }
+        private void LinkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(linkLabel3.Links[0].LinkData.ToString());
         }
 
         private void LinkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -352,7 +361,7 @@ namespace SETUNA.Main.Option
                 var selectedIndex = listStyles.SelectedIndex;
                 var styleEditForm = new StyleEditForm((CStyle)listStyles.SelectedItem, keybook)
                 {
-                    Text = ((CStyle)listStyles.SelectedItem).StyleName + "的相关编辑"
+                    Text = ((CStyle)listStyles.SelectedItem).StyleName + "Related editors"
                 };
                 var dialogResult = styleEditForm.ShowDialog();
                 if (dialogResult == DialogResult.OK)
@@ -402,7 +411,7 @@ namespace SETUNA.Main.Option
             var styleEditForm = styleEditForm2 = new StyleEditForm(cstyle, keybook);
             try
             {
-                styleEditForm.Text = "新建自动操作";
+                styleEditForm.Text = "New automatic operation";
                 var dialogResult = styleEditForm.ShowDialog();
                 if (dialogResult == DialogResult.OK)
                 {
@@ -431,7 +440,7 @@ namespace SETUNA.Main.Option
                 cstyle.ClearKey();
                 var dialogResult = new StyleEditForm(cstyle, keybook)
                 {
-                    Text = "新建自动操作"
+                    Text = "New automatic operation"
                 }.ShowDialog();
                 if (dialogResult == DialogResult.OK)
                 {
@@ -647,7 +656,7 @@ namespace SETUNA.Main.Option
         // Token: 0x060002F7 RID: 759 RVA: 0x00014A6C File Offset: 0x00012C6C
         private void btnInitialize_Click(object sender, EventArgs e)
         {
-            var dialogResult = MessageBox.Show("进行设置内容的初始化。", Application.ProductName, MessageBoxButtons.OKCancel, MessageBoxIcon.Exclamation, MessageBoxDefaultButton.Button2);
+            var dialogResult = MessageBox.Show("Initialize the setting content.", Application.ProductName, MessageBoxButtons.OKCancel, MessageBoxIcon.Exclamation, MessageBoxDefaultButton.Button2);
             if (dialogResult == DialogResult.OK)
             {
                 _so = SetunaOption.GetDefaultOption();
@@ -704,31 +713,31 @@ namespace SETUNA.Main.Option
         // Token: 0x06000300 RID: 768 RVA: 0x00014B37 File Offset: 0x00012D37
         private void lblMenuAll_MouseEnter(object sender, EventArgs e)
         {
-            lblComment.Text = "SETUNA常规设置。";
+            lblComment.Text = "SETUNA general settings.";
         }
 
         // Token: 0x06000301 RID: 769 RVA: 0x00014B49 File Offset: 0x00012D49
         private void lblMenuCapture_MouseEnter(object sender, EventArgs e)
         {
-            lblComment.Text = "进行有关截取的设置。";
+            lblComment.Text = "Capture settings";
         }
 
         // Token: 0x06000302 RID: 770 RVA: 0x00014B5B File Offset: 0x00012D5B
         private void lblMenuScrap_MouseEnter(object sender, EventArgs e)
         {
-            lblComment.Text = "进行参考图的常规设置。";
+            lblComment.Text = "Scrap settings";
         }
 
         // Token: 0x06000303 RID: 771 RVA: 0x00014B6D File Offset: 0x00012D6D
         private void lblMenuStyle_MouseEnter(object sender, EventArgs e)
         {
-            lblComment.Text = "创建一个由自动操作组合而成的自动操作。";
+            lblComment.Text = "Automatic operation configurations";
         }
 
         // Token: 0x06000304 RID: 772 RVA: 0x00014B7F File Offset: 0x00012D7F
         private void lblMenuMenu_MouseEnter(object sender, EventArgs e)
         {
-            lblComment.Text = "设置右键单击参考图时的菜单。";
+            lblComment.Text = "right-click settings";
         }
 
         // Token: 0x06000305 RID: 773 RVA: 0x00014B91 File Offset: 0x00012D91
@@ -801,7 +810,7 @@ namespace SETUNA.Main.Option
 
         private void lblMenuMisc_MouseEnter(object sender, EventArgs e)
         {
-            lblComment.Text = "鼠标样式设置等等。";
+            lblComment.Text = "Other settings";
         }
 
         private void lblMenuMisc_MouseLeave(object sender, EventArgs e)
