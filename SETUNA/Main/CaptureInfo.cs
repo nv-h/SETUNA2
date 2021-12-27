@@ -89,7 +89,7 @@ namespace SETUNA.Main
                 e.Graphics.FillRectangle(new SolidBrush(Color.FromArgb(180, 0, 0, 0)), 0, 0, base.Width, base.Height);
             }
             var p = new Point(10, 10);
-            var font = new Font("Segoe UI Symbol", 9f);
+            var font = System.Drawing.SystemFonts.DefaultFont;
             e.Graphics.DrawString("X:" + ptMouse.X.ToString(), font, new SolidBrush(Color.White), p);
             e.Graphics.DrawString("Y:" + ptMouse.Y.ToString(), font, new SolidBrush(Color.White), p.X, p.Y + font.GetHeight() + 3f);
             if (_isDrag)
@@ -104,11 +104,11 @@ namespace SETUNA.Main
             }
             p.Y += 40;
             e.Graphics.FillRectangle(new SolidBrush(colMouse), new Rectangle(p.X, p.Y, 30, 30));
-            e.Graphics.DrawString("红：" + colMouse.R.ToString(), font, new SolidBrush(Color.White), p.X + 35, p.Y);
+            e.Graphics.DrawString("R:" + colMouse.R.ToString(), font, new SolidBrush(Color.White), p.X + 35, p.Y);
             p.Y += (int)font.GetHeight() + 3;
-            e.Graphics.DrawString("绿：" + colMouse.G.ToString(), font, new SolidBrush(Color.White), p.X + 35, p.Y);
+            e.Graphics.DrawString("G:" + colMouse.G.ToString(), font, new SolidBrush(Color.White), p.X + 35, p.Y);
             p.Y += (int)font.GetHeight() + 3;
-            e.Graphics.DrawString("蓝：" + colMouse.B.ToString(), font, new SolidBrush(Color.White), p.X + 35, p.Y);
+            e.Graphics.DrawString("B:" + colMouse.B.ToString(), font, new SolidBrush(Color.White), p.X + 35, p.Y);
             p.Y += (int)font.GetHeight() + 3;
             e.Graphics.DrawString("#:" + colMouse.R.ToString("X2") + colMouse.G.ToString("X2") + colMouse.B.ToString("X2"), font, new SolidBrush(Color.White), p.X + 35, p.Y);
         }

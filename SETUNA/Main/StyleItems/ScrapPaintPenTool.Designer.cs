@@ -92,12 +92,12 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("宋体", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label3.Font = System.Drawing.SystemFonts.DefaultFont;
             this.label3.Location = new System.Drawing.Point(160, 2);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(25, 10);
             this.label3.TabIndex = 11;
-            this.label3.Text = "尺寸";
+            this.label3.Text = "Size";
             // 
             // penButton5
             // 
@@ -194,12 +194,12 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("宋体", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label1.Font = System.Drawing.SystemFonts.DefaultFont;
             this.label1.Location = new System.Drawing.Point(3, 2);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(45, 10);
             this.label1.TabIndex = 1;
-            this.label1.Text = "不透明度";
+            this.label1.Text = "Opacity";
             // 
             // label2
             // 
@@ -242,7 +242,7 @@
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-            this.Text = "笔工具";
+            this.Text = "Pen tool";
             this.TopMost = true;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ScrapPaintPenTool_FormClosing);
             this.flowLayoutPanel1.ResumeLayout(false);

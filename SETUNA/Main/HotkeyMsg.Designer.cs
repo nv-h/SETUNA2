@@ -28,13 +28,13 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("宋体", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label1.Font = System.Drawing.SystemFonts.DefaultFont;
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.label1.Location = new System.Drawing.Point(63, 13);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(112, 14);
             this.label1.TabIndex = 0;
-            this.label1.Text = "禁用快捷键设置";
+            this.label1.Text = "Disable shortcut key settings";
             // 
             // label2
             // 
@@ -43,7 +43,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(269, 12);
             this.label2.TabIndex = 1;
-            this.label2.Text = "因为被其他软件使用，禁用SETUNA的快捷键设置。";
+            this.label2.Text = "Because it is used by other software, the shortcut key setting of SETUNA is disabled.";
             // 
             // label3
             // 
@@ -52,7 +52,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(269, 12);
             this.label3.TabIndex = 2;
-            this.label3.Text = "您可以重新指定启用另一个键，请打开选项设置。";
+            this.label3.Text = "You can reassign another key to enable, please open the option settings.";
             // 
             // btnClose
             // 
@@ -61,14 +61,14 @@
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(98, 23);
             this.btnClose.TabIndex = 3;
-            this.btnClose.Text = "关闭";
+            this.btnClose.Text = "Close";
             this.btnClose.UseVisualStyleBackColor = true;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // lblKey
             // 
             this.lblKey.AutoSize = true;
-            this.lblKey.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.lblKey.Font = System.Drawing.SystemFonts.DefaultFont;
             this.lblKey.Location = new System.Drawing.Point(88, 40);
             this.lblKey.Name = "lblKey";
             this.lblKey.Size = new System.Drawing.Size(68, 12);
@@ -103,7 +103,7 @@
             this.MinimizeBox = false;
             this.Name = "HotkeyMsg";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "SETUNA快捷键设置";
+            this.Text = "SETUNA shortcut key settings";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -111,9 +111,9 @@
 		}
 
 		// Token: 0x040001BB RID: 443
-#pragma warning disable CS0649 // 从未对字段“HotkeyMsg.components”赋值，字段将一直保持其默认值 null
+#pragma warning disable CS0649 // The field "HotkeyMsg.components" has never been assigned a value, the field will always keep its default value null
 		private global::System.ComponentModel.IContainer components;
-#pragma warning restore CS0649 // 从未对字段“HotkeyMsg.components”赋值，字段将一直保持其默认值 null
+#pragma warning restore CS0649 // The field "HotkeyMsg.components" has never been assigned a value, the field will always keep its default value null
 
 		// Token: 0x040001BC RID: 444
 		private global::System.Windows.Forms.Label label1;

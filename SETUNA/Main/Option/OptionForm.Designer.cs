@@ -179,28 +179,28 @@
             this.panel2.Controls.Add(this.btnCancel);
             this.panel2.Controls.Add(this.btnOK);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 900);
-            this.panel2.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.panel2.Location = new System.Drawing.Point(0, 630);
+            this.panel2.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1449, 100);
+            this.panel2.Size = new System.Drawing.Size(1063, 70);
             this.panel2.TabIndex = 1;
             // 
             // lblComment
             // 
-            this.lblComment.Location = new System.Drawing.Point(30, 14);
-            this.lblComment.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
+            this.lblComment.Location = new System.Drawing.Point(22, 10);
+            this.lblComment.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblComment.Name = "lblComment";
-            this.lblComment.Size = new System.Drawing.Size(894, 56);
+            this.lblComment.Size = new System.Drawing.Size(656, 39);
             this.lblComment.TabIndex = 2;
             // 
             // btnCancel
             // 
             this.btnCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnCancel.Location = new System.Drawing.Point(1194, 14);
-            this.btnCancel.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.btnCancel.Location = new System.Drawing.Point(876, 10);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(244, 66);
+            this.btnCancel.Size = new System.Drawing.Size(179, 46);
             this.btnCancel.TabIndex = 1;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
@@ -209,10 +209,10 @@
             // btnOK
             // 
             this.btnOK.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnOK.Location = new System.Drawing.Point(939, 14);
-            this.btnOK.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.btnOK.Location = new System.Drawing.Point(689, 10);
+            this.btnOK.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.btnOK.Name = "btnOK";
-            this.btnOK.Size = new System.Drawing.Size(244, 66);
+            this.btnOK.Size = new System.Drawing.Size(179, 46);
             this.btnOK.TabIndex = 0;
             this.btnOK.Text = "OK";
             this.btnOK.UseVisualStyleBackColor = true;
@@ -224,9 +224,9 @@
             this.panel3.Controls.Add(this.panel1);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(0, 0);
-            this.panel3.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.panel3.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1449, 900);
+            this.panel3.Size = new System.Drawing.Size(1063, 630);
             this.panel3.TabIndex = 2;
             // 
             // detailPanel
@@ -234,10 +234,10 @@
             this.detailPanel.BackColor = System.Drawing.Color.White;
             this.detailPanel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.detailPanel.Controls.Add(this.tabControl1);
-            this.detailPanel.Location = new System.Drawing.Point(322, 0);
+            this.detailPanel.Location = new System.Drawing.Point(236, 0);
             this.detailPanel.Margin = new System.Windows.Forms.Padding(0);
             this.detailPanel.Name = "detailPanel";
-            this.detailPanel.Size = new System.Drawing.Size(1122, 894);
+            this.detailPanel.Size = new System.Drawing.Size(824, 627);
             this.detailPanel.TabIndex = 0;
             // 
             // tabControl1
@@ -254,7 +254,7 @@
             this.tabControl1.Margin = new System.Windows.Forms.Padding(0);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1118, 890);
+            this.tabControl1.Size = new System.Drawing.Size(820, 623);
             this.tabControl1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.tabControl1.TabIndex = 0;
             this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.tabControl1_TabIndexChanged);
@@ -268,21 +268,21 @@
             this.pageAll.Controls.Add(this.groupBox5);
             this.pageAll.Controls.Add(this.btnInitialize);
             this.pageAll.Controls.Add(this.groupBox6);
-            this.pageAll.Location = new System.Drawing.Point(4, 43);
-            this.pageAll.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.pageAll.Location = new System.Drawing.Point(4, 34);
+            this.pageAll.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.pageAll.Name = "pageAll";
-            this.pageAll.Padding = new System.Windows.Forms.Padding(13, 14, 13, 14);
-            this.pageAll.Size = new System.Drawing.Size(1110, 843);
+            this.pageAll.Padding = new System.Windows.Forms.Padding(10, 10, 10, 10);
+            this.pageAll.Size = new System.Drawing.Size(812, 585);
             this.pageAll.TabIndex = 1;
             this.pageAll.Text = "General";
             this.pageAll.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(21, 744);
-            this.button2.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.button2.Location = new System.Drawing.Point(291, 521);
+            this.button2.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(456, 66);
+            this.button2.Size = new System.Drawing.Size(243, 46);
             this.button2.TabIndex = 12;
             this.button2.Text = "Open cache directory";
             this.button2.UseVisualStyleBackColor = true;
@@ -293,11 +293,11 @@
             this.groupBox13.Controls.Add(this.linkLabel3);
             this.groupBox13.Controls.Add(this.linkLabel2);
             this.groupBox13.Controls.Add(this.linkLabel1);
-            this.groupBox13.Location = new System.Drawing.Point(21, 584);
-            this.groupBox13.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.groupBox13.Location = new System.Drawing.Point(15, 409);
+            this.groupBox13.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.groupBox13.Name = "groupBox13";
-            this.groupBox13.Padding = new System.Windows.Forms.Padding(8, 6, 8, 6);
-            this.groupBox13.Size = new System.Drawing.Size(1058, 126);
+            this.groupBox13.Padding = new System.Windows.Forms.Padding(6, 4, 6, 4);
+            this.groupBox13.Size = new System.Drawing.Size(776, 88);
             this.groupBox13.TabIndex = 11;
             this.groupBox13.TabStop = false;
             this.groupBox13.Text = "Informations";
@@ -305,10 +305,10 @@
             // linkLabel3
             // 
             this.linkLabel3.AutoSize = true;
-            this.linkLabel3.Location = new System.Drawing.Point(34, 88);
-            this.linkLabel3.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.linkLabel3.Location = new System.Drawing.Point(25, 62);
+            this.linkLabel3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.linkLabel3.Name = "linkLabel3";
-            this.linkLabel3.Size = new System.Drawing.Size(73, 30);
+            this.linkLabel3.Size = new System.Drawing.Size(45, 21);
             this.linkLabel3.TabIndex = 1;
             this.linkLabel3.TabStop = true;
             this.linkLabel3.Text = "test";
@@ -317,10 +317,10 @@
             // linkLabel2
             // 
             this.linkLabel2.AutoSize = true;
-            this.linkLabel2.Location = new System.Drawing.Point(34, 88);
-            this.linkLabel2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.linkLabel2.Location = new System.Drawing.Point(25, 62);
+            this.linkLabel2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(73, 30);
+            this.linkLabel2.Size = new System.Drawing.Size(45, 21);
             this.linkLabel2.TabIndex = 1;
             this.linkLabel2.TabStop = true;
             this.linkLabel2.Text = "test";
@@ -329,10 +329,10 @@
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(34, 42);
-            this.linkLabel1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.linkLabel1.Location = new System.Drawing.Point(25, 29);
+            this.linkLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(73, 30);
+            this.linkLabel1.Size = new System.Drawing.Size(45, 21);
             this.linkLabel1.TabIndex = 0;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "test";
@@ -343,11 +343,11 @@
             this.groupBox7.Controls.Add(this.checkBox_autoStartup);
             this.groupBox7.Controls.Add(this.checkBox_topMost);
             this.groupBox7.Controls.Add(this.chkSplash);
-            this.groupBox7.Location = new System.Drawing.Point(21, 444);
-            this.groupBox7.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.groupBox7.Location = new System.Drawing.Point(15, 311);
+            this.groupBox7.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Padding = new System.Windows.Forms.Padding(8, 6, 8, 6);
-            this.groupBox7.Size = new System.Drawing.Size(1058, 126);
+            this.groupBox7.Padding = new System.Windows.Forms.Padding(6, 4, 6, 4);
+            this.groupBox7.Size = new System.Drawing.Size(776, 88);
             this.groupBox7.TabIndex = 10;
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "Others";
@@ -355,10 +355,10 @@
             // checkBox_autoStartup
             // 
             this.checkBox_autoStartup.AutoSize = true;
-            this.checkBox_autoStartup.Location = new System.Drawing.Point(789, 54);
-            this.checkBox_autoStartup.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.checkBox_autoStartup.Location = new System.Drawing.Point(531, 38);
+            this.checkBox_autoStartup.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.checkBox_autoStartup.Name = "checkBox_autoStartup";
-            this.checkBox_autoStartup.Size = new System.Drawing.Size(201, 34);
+            this.checkBox_autoStartup.Size = new System.Drawing.Size(148, 25);
             this.checkBox_autoStartup.TabIndex = 9;
             this.checkBox_autoStartup.Text = "Start at boot";
             this.checkBox_autoStartup.UseVisualStyleBackColor = true;
@@ -366,10 +366,10 @@
             // checkBox_topMost
             // 
             this.checkBox_topMost.AutoSize = true;
-            this.checkBox_topMost.Location = new System.Drawing.Point(405, 54);
-            this.checkBox_topMost.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.checkBox_topMost.Location = new System.Drawing.Point(254, 38);
+            this.checkBox_topMost.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.checkBox_topMost.Name = "checkBox_topMost";
-            this.checkBox_topMost.Size = new System.Drawing.Size(231, 34);
+            this.checkBox_topMost.Size = new System.Drawing.Size(265, 25);
             this.checkBox_topMost.TabIndex = 8;
             this.checkBox_topMost.Text = "Always on top screenshot";
             this.checkBox_topMost.UseVisualStyleBackColor = true;
@@ -377,10 +377,10 @@
             // chkSplash
             // 
             this.chkSplash.AutoSize = true;
-            this.chkSplash.Location = new System.Drawing.Point(39, 54);
-            this.chkSplash.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.chkSplash.Location = new System.Drawing.Point(29, 38);
+            this.chkSplash.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.chkSplash.Name = "chkSplash";
-            this.chkSplash.Size = new System.Drawing.Size(231, 34);
+            this.chkSplash.Size = new System.Drawing.Size(213, 25);
             this.chkSplash.TabIndex = 7;
             this.chkSplash.Text = "Show splash screen";
             this.toolTip1.SetToolTip(this.chkSplash, "The logo will be displayed when SETUNA is started.");
@@ -391,11 +391,11 @@
             this.groupBox5.Controls.Add(this.chkDustBox);
             this.groupBox5.Controls.Add(this.label14);
             this.groupBox5.Controls.Add(this.numDustBox);
-            this.groupBox5.Location = new System.Drawing.Point(21, 254);
-            this.groupBox5.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.groupBox5.Location = new System.Drawing.Point(15, 178);
+            this.groupBox5.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Padding = new System.Windows.Forms.Padding(8, 6, 8, 6);
-            this.groupBox5.Size = new System.Drawing.Size(1058, 174);
+            this.groupBox5.Padding = new System.Windows.Forms.Padding(6, 4, 6, 4);
+            this.groupBox5.Size = new System.Drawing.Size(776, 122);
             this.groupBox5.TabIndex = 9;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Recycle bin";
@@ -403,42 +403,44 @@
             // chkDustBox
             // 
             this.chkDustBox.AutoSize = true;
-            this.chkDustBox.Location = new System.Drawing.Point(39, 54);
-            this.chkDustBox.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.chkDustBox.Location = new System.Drawing.Point(29, 38);
+            this.chkDustBox.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.chkDustBox.Name = "chkDustBox";
-            this.chkDustBox.Size = new System.Drawing.Size(201, 34);
+            this.chkDustBox.Size = new System.Drawing.Size(172, 25);
             this.chkDustBox.TabIndex = 4;
             this.chkDustBox.Text = "Use recycle bin";
-            this.toolTip1.SetToolTip(this.chkDustBox, "If you use recycle bin, captured image will be temporarily stored in recycle bin. \nIt can be taken out from recycle bin according to the situation.");
+            this.toolTip1.SetToolTip(this.chkDustBox, "If you use recycle bin, captured image will be temporarily stored in recycle bin." +
+        " \nIt can be taken out from recycle bin according to the situation.");
             this.chkDustBox.UseVisualStyleBackColor = true;
             // 
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(180, 106);
-            this.label14.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
+            this.label14.Location = new System.Drawing.Point(132, 74);
+            this.label14.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(133, 30);
+            this.label14.Size = new System.Drawing.Size(301, 21);
             this.label14.TabIndex = 6;
             this.label14.Text = "Maximum number of screenshots";
             // 
             // numDustBox
             // 
-            this.numDustBox.Font = System.Drawing.SystemFonts.DefaultFont;
-            this.numDustBox.Location = new System.Drawing.Point(94, 100);
-            this.numDustBox.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.numDustBox.Font = new System.Drawing.Font("MS UI Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.numDustBox.Location = new System.Drawing.Point(69, 70);
+            this.numDustBox.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.numDustBox.Name = "numDustBox";
-            this.numDustBox.Size = new System.Drawing.Size(86, 42);
+            this.numDustBox.Size = new System.Drawing.Size(63, 28);
             this.numDustBox.TabIndex = 5;
             this.numDustBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.toolTip1.SetToolTip(this.numDustBox, "Specify the maximum number of captures placed in recycle bin. \nIf the limit is exceeded, the old image will be discarded.");
+            this.toolTip1.SetToolTip(this.numDustBox, "Specify the maximum number of captures placed in recycle bin. \nIf the limit is ex" +
+        "ceeded, the old image will be discarded.");
             // 
             // btnInitialize
             // 
-            this.btnInitialize.Location = new System.Drawing.Point(622, 744);
-            this.btnInitialize.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.btnInitialize.Location = new System.Drawing.Point(546, 521);
+            this.btnInitialize.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.btnInitialize.Name = "btnInitialize";
-            this.btnInitialize.Size = new System.Drawing.Size(456, 66);
+            this.btnInitialize.Size = new System.Drawing.Size(244, 46);
             this.btnInitialize.TabIndex = 8;
             this.btnInitialize.Text = "Restored to default";
             this.btnInitialize.UseVisualStyleBackColor = true;
@@ -449,11 +451,11 @@
             this.groupBox6.Controls.Add(this.chkShowMainWindow);
             this.groupBox6.Controls.Add(this.rdoExeTypeResident);
             this.groupBox6.Controls.Add(this.rdoExeTypeApp);
-            this.groupBox6.Location = new System.Drawing.Point(21, 20);
-            this.groupBox6.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.groupBox6.Location = new System.Drawing.Point(15, 14);
+            this.groupBox6.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Padding = new System.Windows.Forms.Padding(8, 6, 8, 6);
-            this.groupBox6.Size = new System.Drawing.Size(1058, 220);
+            this.groupBox6.Padding = new System.Windows.Forms.Padding(6, 4, 6, 4);
+            this.groupBox6.Size = new System.Drawing.Size(776, 154);
             this.groupBox6.TabIndex = 2;
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Window mode";
@@ -461,10 +463,10 @@
             // chkShowMainWindow
             // 
             this.chkShowMainWindow.AutoSize = true;
-            this.chkShowMainWindow.Location = new System.Drawing.Point(84, 150);
-            this.chkShowMainWindow.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.chkShowMainWindow.Location = new System.Drawing.Point(62, 105);
+            this.chkShowMainWindow.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.chkShowMainWindow.Name = "chkShowMainWindow";
-            this.chkShowMainWindow.Size = new System.Drawing.Size(201, 34);
+            this.chkShowMainWindow.Size = new System.Drawing.Size(201, 25);
             this.chkShowMainWindow.TabIndex = 2;
             this.chkShowMainWindow.Text = "Show main window";
             this.chkShowMainWindow.UseVisualStyleBackColor = true;
@@ -472,10 +474,10 @@
             // rdoExeTypeResident
             // 
             this.rdoExeTypeResident.AutoSize = true;
-            this.rdoExeTypeResident.Location = new System.Drawing.Point(39, 96);
-            this.rdoExeTypeResident.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.rdoExeTypeResident.Location = new System.Drawing.Point(29, 67);
+            this.rdoExeTypeResident.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.rdoExeTypeResident.Name = "rdoExeTypeResident";
-            this.rdoExeTypeResident.Size = new System.Drawing.Size(200, 34);
+            this.rdoExeTypeResident.Size = new System.Drawing.Size(104, 25);
             this.rdoExeTypeResident.TabIndex = 1;
             this.rdoExeTypeResident.Text = "Taskbar";
             this.toolTip1.SetToolTip(this.rdoExeTypeResident, "Icon is displayed on taskbar.");
@@ -486,10 +488,10 @@
             // 
             this.rdoExeTypeApp.AutoSize = true;
             this.rdoExeTypeApp.Checked = true;
-            this.rdoExeTypeApp.Location = new System.Drawing.Point(39, 46);
-            this.rdoExeTypeApp.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.rdoExeTypeApp.Location = new System.Drawing.Point(29, 32);
+            this.rdoExeTypeApp.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.rdoExeTypeApp.Name = "rdoExeTypeApp";
-            this.rdoExeTypeApp.Size = new System.Drawing.Size(170, 34);
+            this.rdoExeTypeApp.Size = new System.Drawing.Size(200, 25);
             this.rdoExeTypeApp.TabIndex = 0;
             this.rdoExeTypeApp.TabStop = true;
             this.rdoExeTypeApp.Text = "Application window";
@@ -503,11 +505,11 @@
             this.pageCapture.Controls.Add(this.groupBox3);
             this.pageCapture.Controls.Add(this.groupBox4);
             this.pageCapture.Controls.Add(this.groupBox2);
-            this.pageCapture.Location = new System.Drawing.Point(4, 43);
+            this.pageCapture.Location = new System.Drawing.Point(4, 34);
             this.pageCapture.Margin = new System.Windows.Forms.Padding(0);
             this.pageCapture.Name = "pageCapture";
-            this.pageCapture.Padding = new System.Windows.Forms.Padding(13, 14, 13, 14);
-            this.pageCapture.Size = new System.Drawing.Size(1110, 843);
+            this.pageCapture.Padding = new System.Windows.Forms.Padding(10, 10, 10, 10);
+            this.pageCapture.Size = new System.Drawing.Size(812, 585);
             this.pageCapture.TabIndex = 4;
             this.pageCapture.Text = "Capture settings";
             this.pageCapture.UseVisualStyleBackColor = true;
@@ -523,31 +525,31 @@
             this.groupBox12.Controls.Add(this.chkCC1);
             this.groupBox12.Controls.Add(this.chkCC9);
             this.groupBox12.Controls.Add(this.chkCC7);
-            this.groupBox12.Location = new System.Drawing.Point(622, 288);
-            this.groupBox12.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.groupBox12.Location = new System.Drawing.Point(456, 202);
+            this.groupBox12.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.groupBox12.Name = "groupBox12";
-            this.groupBox12.Padding = new System.Windows.Forms.Padding(8, 6, 8, 6);
-            this.groupBox12.Size = new System.Drawing.Size(456, 524);
+            this.groupBox12.Padding = new System.Windows.Forms.Padding(6, 4, 6, 4);
+            this.groupBox12.Size = new System.Drawing.Size(334, 367);
             this.groupBox12.TabIndex = 4;
             this.groupBox12.TabStop = false;
             this.groupBox12.Text = "Click to capture";
             // 
             // label16
             // 
-            this.label16.Location = new System.Drawing.Point(13, 424);
-            this.label16.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
+            this.label16.Location = new System.Drawing.Point(10, 297);
+            this.label16.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(433, 76);
+            this.label16.Size = new System.Drawing.Size(318, 53);
             this.label16.TabIndex = 8;
             this.label16.Text = "When you click on a specified edge of the screen, it starts to capture.";
             // 
             // chkCC6
             // 
             this.chkCC6.Appearance = System.Windows.Forms.Appearance.Button;
-            this.chkCC6.Location = new System.Drawing.Point(324, 124);
-            this.chkCC6.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.chkCC6.Location = new System.Drawing.Point(238, 87);
+            this.chkCC6.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.chkCC6.Name = "chkCC6";
-            this.chkCC6.Size = new System.Drawing.Size(66, 194);
+            this.chkCC6.Size = new System.Drawing.Size(48, 136);
             this.chkCC6.TabIndex = 7;
             this.chkCC6.UseVisualStyleBackColor = false;
             this.chkCC6.CheckedChanged += new System.EventHandler(this.chkCC_CheckedChanged);
@@ -555,10 +557,10 @@
             // chkCC4
             // 
             this.chkCC4.Appearance = System.Windows.Forms.Appearance.Button;
-            this.chkCC4.Location = new System.Drawing.Point(66, 124);
-            this.chkCC4.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.chkCC4.Location = new System.Drawing.Point(48, 87);
+            this.chkCC4.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.chkCC4.Name = "chkCC4";
-            this.chkCC4.Size = new System.Drawing.Size(66, 194);
+            this.chkCC4.Size = new System.Drawing.Size(48, 136);
             this.chkCC4.TabIndex = 6;
             this.chkCC4.UseVisualStyleBackColor = false;
             this.chkCC4.CheckedChanged += new System.EventHandler(this.chkCC_CheckedChanged);
@@ -566,10 +568,10 @@
             // chkCC2
             // 
             this.chkCC2.Appearance = System.Windows.Forms.Appearance.Button;
-            this.chkCC2.Location = new System.Drawing.Point(129, 320);
-            this.chkCC2.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.chkCC2.Location = new System.Drawing.Point(95, 224);
+            this.chkCC2.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.chkCC2.Name = "chkCC2";
-            this.chkCC2.Size = new System.Drawing.Size(195, 64);
+            this.chkCC2.Size = new System.Drawing.Size(143, 45);
             this.chkCC2.TabIndex = 5;
             this.chkCC2.UseVisualStyleBackColor = false;
             this.chkCC2.CheckedChanged += new System.EventHandler(this.chkCC_CheckedChanged);
@@ -577,10 +579,10 @@
             // chkCC8
             // 
             this.chkCC8.Appearance = System.Windows.Forms.Appearance.Button;
-            this.chkCC8.Location = new System.Drawing.Point(129, 60);
-            this.chkCC8.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.chkCC8.Location = new System.Drawing.Point(95, 42);
+            this.chkCC8.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.chkCC8.Name = "chkCC8";
-            this.chkCC8.Size = new System.Drawing.Size(195, 64);
+            this.chkCC8.Size = new System.Drawing.Size(143, 45);
             this.chkCC8.TabIndex = 4;
             this.chkCC8.UseVisualStyleBackColor = false;
             this.chkCC8.CheckedChanged += new System.EventHandler(this.chkCC_CheckedChanged);
@@ -588,10 +590,10 @@
             // chkCC3
             // 
             this.chkCC3.Appearance = System.Windows.Forms.Appearance.Button;
-            this.chkCC3.Location = new System.Drawing.Point(324, 320);
-            this.chkCC3.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.chkCC3.Location = new System.Drawing.Point(238, 224);
+            this.chkCC3.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.chkCC3.Name = "chkCC3";
-            this.chkCC3.Size = new System.Drawing.Size(66, 64);
+            this.chkCC3.Size = new System.Drawing.Size(48, 45);
             this.chkCC3.TabIndex = 3;
             this.chkCC3.UseVisualStyleBackColor = false;
             this.chkCC3.CheckedChanged += new System.EventHandler(this.chkCC_CheckedChanged);
@@ -599,10 +601,10 @@
             // chkCC1
             // 
             this.chkCC1.Appearance = System.Windows.Forms.Appearance.Button;
-            this.chkCC1.Location = new System.Drawing.Point(66, 320);
-            this.chkCC1.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.chkCC1.Location = new System.Drawing.Point(48, 224);
+            this.chkCC1.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.chkCC1.Name = "chkCC1";
-            this.chkCC1.Size = new System.Drawing.Size(66, 64);
+            this.chkCC1.Size = new System.Drawing.Size(48, 45);
             this.chkCC1.TabIndex = 2;
             this.chkCC1.UseVisualStyleBackColor = false;
             this.chkCC1.CheckedChanged += new System.EventHandler(this.chkCC_CheckedChanged);
@@ -610,10 +612,10 @@
             // chkCC9
             // 
             this.chkCC9.Appearance = System.Windows.Forms.Appearance.Button;
-            this.chkCC9.Location = new System.Drawing.Point(324, 60);
-            this.chkCC9.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.chkCC9.Location = new System.Drawing.Point(238, 42);
+            this.chkCC9.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.chkCC9.Name = "chkCC9";
-            this.chkCC9.Size = new System.Drawing.Size(66, 64);
+            this.chkCC9.Size = new System.Drawing.Size(48, 45);
             this.chkCC9.TabIndex = 1;
             this.chkCC9.UseVisualStyleBackColor = false;
             this.chkCC9.CheckedChanged += new System.EventHandler(this.chkCC_CheckedChanged);
@@ -621,10 +623,10 @@
             // chkCC7
             // 
             this.chkCC7.Appearance = System.Windows.Forms.Appearance.Button;
-            this.chkCC7.Location = new System.Drawing.Point(66, 60);
-            this.chkCC7.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.chkCC7.Location = new System.Drawing.Point(48, 42);
+            this.chkCC7.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.chkCC7.Name = "chkCC7";
-            this.chkCC7.Size = new System.Drawing.Size(66, 64);
+            this.chkCC7.Size = new System.Drawing.Size(48, 45);
             this.chkCC7.TabIndex = 0;
             this.chkCC7.UseVisualStyleBackColor = false;
             this.chkCC7.CheckedChanged += new System.EventHandler(this.chkCC_CheckedChanged);
@@ -633,11 +635,11 @@
             // 
             this.groupBox3.Controls.Add(this.rdoDupCapture);
             this.groupBox3.Controls.Add(this.rdoDupNone);
-            this.groupBox3.Location = new System.Drawing.Point(21, 632);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.groupBox3.Location = new System.Drawing.Point(15, 442);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(8, 6, 8, 6);
-            this.groupBox3.Size = new System.Drawing.Size(587, 176);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(6, 4, 6, 4);
+            this.groupBox3.Size = new System.Drawing.Size(430, 123);
             this.groupBox3.TabIndex = 3;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Prevent double start";
@@ -645,10 +647,10 @@
             // rdoDupCapture
             // 
             this.rdoDupCapture.AutoSize = true;
-            this.rdoDupCapture.Location = new System.Drawing.Point(39, 104);
-            this.rdoDupCapture.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.rdoDupCapture.Location = new System.Drawing.Point(29, 73);
+            this.rdoDupCapture.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.rdoDupCapture.Name = "rdoDupCapture";
-            this.rdoDupCapture.Size = new System.Drawing.Size(200, 34);
+            this.rdoDupCapture.Size = new System.Drawing.Size(105, 25);
             this.rdoDupCapture.TabIndex = 1;
             this.rdoDupCapture.Text = "Capture";
             this.toolTip1.SetToolTip(this.rdoDupCapture, "If you try to start SETUNA repeatedly, interception starts.");
@@ -658,10 +660,10 @@
             // 
             this.rdoDupNone.AutoSize = true;
             this.rdoDupNone.Checked = true;
-            this.rdoDupNone.Location = new System.Drawing.Point(39, 54);
-            this.rdoDupNone.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.rdoDupNone.Location = new System.Drawing.Point(29, 38);
+            this.rdoDupNone.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.rdoDupNone.Name = "rdoDupNone";
-            this.rdoDupNone.Size = new System.Drawing.Size(200, 34);
+            this.rdoDupNone.Size = new System.Drawing.Size(131, 25);
             this.rdoDupNone.TabIndex = 0;
             this.rdoDupNone.TabStop = true;
             this.rdoDupNone.Text = "Do nothing";
@@ -680,11 +682,11 @@
             this.groupBox4.Controls.Add(this.label9);
             this.groupBox4.Controls.Add(this.label8);
             this.groupBox4.Controls.Add(this.label7);
-            this.groupBox4.Location = new System.Drawing.Point(21, 288);
-            this.groupBox4.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.groupBox4.Location = new System.Drawing.Point(15, 202);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Padding = new System.Windows.Forms.Padding(8, 6, 8, 6);
-            this.groupBox4.Size = new System.Drawing.Size(587, 330);
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(6, 4, 6, 4);
+            this.groupBox4.Size = new System.Drawing.Size(430, 231);
             this.groupBox4.TabIndex = 1;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Frame selection range when capturing";
@@ -692,10 +694,10 @@
             // rdoSelLineTypeDotted
             // 
             this.rdoSelLineTypeDotted.AutoSize = true;
-            this.rdoSelLineTypeDotted.Location = new System.Drawing.Point(416, 114);
-            this.rdoSelLineTypeDotted.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.rdoSelLineTypeDotted.Location = new System.Drawing.Point(305, 80);
+            this.rdoSelLineTypeDotted.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.rdoSelLineTypeDotted.Name = "rdoSelLineTypeDotted";
-            this.rdoSelLineTypeDotted.Size = new System.Drawing.Size(110, 34);
+            this.rdoSelLineTypeDotted.Size = new System.Drawing.Size(95, 25);
             this.rdoSelLineTypeDotted.TabIndex = 3;
             this.rdoSelLineTypeDotted.Text = "Dotted";
             this.toolTip1.SetToolTip(this.rdoSelLineTypeDotted, "Set the border line type of the frame selection range.");
@@ -705,10 +707,10 @@
             // 
             this.rdoSelLineTypeSolid.AutoSize = true;
             this.rdoSelLineTypeSolid.Checked = true;
-            this.rdoSelLineTypeSolid.Location = new System.Drawing.Point(294, 116);
-            this.rdoSelLineTypeSolid.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.rdoSelLineTypeSolid.Location = new System.Drawing.Point(216, 81);
+            this.rdoSelLineTypeSolid.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.rdoSelLineTypeSolid.Name = "rdoSelLineTypeSolid";
-            this.rdoSelLineTypeSolid.Size = new System.Drawing.Size(110, 34);
+            this.rdoSelLineTypeSolid.Size = new System.Drawing.Size(77, 25);
             this.rdoSelLineTypeSolid.TabIndex = 2;
             this.rdoSelLineTypeSolid.TabStop = true;
             this.rdoSelLineTypeSolid.Text = "Solid";
@@ -718,34 +720,36 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(412, 244);
-            this.label12.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
+            this.label12.Location = new System.Drawing.Point(302, 171);
+            this.label12.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(28, 30);
+            this.label12.Size = new System.Drawing.Size(21, 21);
             this.label12.TabIndex = 7;
             this.label12.Text = "%";
             // 
             // numSelectAreaTrans
             // 
-            this.numSelectAreaTrans.Location = new System.Drawing.Point(294, 236);
-            this.numSelectAreaTrans.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.numSelectAreaTrans.Location = new System.Drawing.Point(216, 165);
+            this.numSelectAreaTrans.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.numSelectAreaTrans.Name = "numSelectAreaTrans";
-            this.numSelectAreaTrans.Size = new System.Drawing.Size(103, 42);
+            this.numSelectAreaTrans.Size = new System.Drawing.Size(76, 28);
             this.numSelectAreaTrans.TabIndex = 6;
-            this.toolTip1.SetToolTip(this.numSelectAreaTrans, "Set opacity of the fill color of selected area. \nWhen opacity is 100%, response speed can be improved.");
+            this.toolTip1.SetToolTip(this.numSelectAreaTrans, "Set opacity of the fill color of selected area. \nWhen opacity is 100%, response s" +
+        "peed can be improved.");
             // 
             // picSelectAreaBackColor
             // 
             this.picSelectAreaBackColor.BackColor = System.Drawing.Color.AliceBlue;
             this.picSelectAreaBackColor.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.picSelectAreaBackColor.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.picSelectAreaBackColor.Location = new System.Drawing.Point(294, 174);
-            this.picSelectAreaBackColor.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.picSelectAreaBackColor.Location = new System.Drawing.Point(216, 122);
+            this.picSelectAreaBackColor.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.picSelectAreaBackColor.Name = "picSelectAreaBackColor";
-            this.picSelectAreaBackColor.Size = new System.Drawing.Size(73, 38);
+            this.picSelectAreaBackColor.Size = new System.Drawing.Size(55, 28);
             this.picSelectAreaBackColor.TabIndex = 10;
             this.picSelectAreaBackColor.TabStop = false;
-            this.toolTip1.SetToolTip(this.picSelectAreaBackColor, "Set color to fully fill the selected area. \nSet opacity to 100% if it is not fully painted.");
+            this.toolTip1.SetToolTip(this.picSelectAreaBackColor, "Set color to fully fill the selected area. \nSet opacity to 100% if it is not full" +
+        "y painted.");
             this.picSelectAreaBackColor.Click += new System.EventHandler(this.pictureBox_Click);
             // 
             // picSelectAreaLineColor
@@ -753,10 +757,10 @@
             this.picSelectAreaLineColor.BackColor = System.Drawing.Color.Blue;
             this.picSelectAreaLineColor.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.picSelectAreaLineColor.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.picSelectAreaLineColor.Location = new System.Drawing.Point(294, 54);
-            this.picSelectAreaLineColor.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.picSelectAreaLineColor.Location = new System.Drawing.Point(216, 38);
+            this.picSelectAreaLineColor.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.picSelectAreaLineColor.Name = "picSelectAreaLineColor";
-            this.picSelectAreaLineColor.Size = new System.Drawing.Size(73, 38);
+            this.picSelectAreaLineColor.Size = new System.Drawing.Size(55, 28);
             this.picSelectAreaLineColor.TabIndex = 9;
             this.picSelectAreaLineColor.TabStop = false;
             this.toolTip1.SetToolTip(this.picSelectAreaLineColor, "Specify color of the border line of the frame selection range.");
@@ -765,40 +769,40 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(39, 244);
-            this.label10.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
+            this.label10.Location = new System.Drawing.Point(29, 171);
+            this.label10.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(283, 30);
+            this.label10.Size = new System.Drawing.Size(179, 21);
             this.label10.TabIndex = 5;
             this.label10.Text = "opacity of the area:";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(39, 184);
-            this.label9.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
+            this.label9.Location = new System.Drawing.Point(29, 129);
+            this.label9.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(253, 30);
+            this.label9.Size = new System.Drawing.Size(163, 21);
             this.label9.TabIndex = 4;
             this.label9.Text = "Color of the area:";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(39, 60);
-            this.label8.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
+            this.label8.Location = new System.Drawing.Point(29, 42);
+            this.label8.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(223, 30);
+            this.label8.Size = new System.Drawing.Size(155, 21);
             this.label8.TabIndex = 0;
             this.label8.Text = "Color of the line:";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(39, 120);
-            this.label7.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
+            this.label7.Location = new System.Drawing.Point(29, 84);
+            this.label7.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(223, 30);
+            this.label7.Size = new System.Drawing.Size(133, 21);
             this.label7.TabIndex = 1;
             this.label7.Text = "Selection line:";
             // 
@@ -810,11 +814,11 @@
             this.groupBox2.Controls.Add(this.hotkeyControl1);
             this.groupBox2.Controls.Add(this.checkBox1);
             this.groupBox2.Controls.Add(this.label3);
-            this.groupBox2.Location = new System.Drawing.Point(21, 20);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.groupBox2.Location = new System.Drawing.Point(15, 14);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(24, 16, 8, 6);
-            this.groupBox2.Size = new System.Drawing.Size(1058, 256);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(18, 11, 6, 4);
+            this.groupBox2.Size = new System.Drawing.Size(776, 179);
             this.groupBox2.TabIndex = 0;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Shortcut key settings";
@@ -822,40 +826,43 @@
             // hotkeyControl2
             // 
             this.hotkeyControl2.Hotkey = System.Windows.Forms.Keys.None;
-            this.hotkeyControl2.Location = new System.Drawing.Point(364, 144);
-            this.hotkeyControl2.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.hotkeyControl2.Location = new System.Drawing.Point(267, 101);
+            this.hotkeyControl2.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.hotkeyControl2.Name = "hotkeyControl2";
-            this.hotkeyControl2.Size = new System.Drawing.Size(375, 46);
+            this.hotkeyControl2.Size = new System.Drawing.Size(275, 32);
             this.hotkeyControl2.TabIndex = 3;
-            this.toolTip1.SetToolTip(this.hotkeyControl2, "Ctrl key, Shift key and Alt key, the combination of each key to set the shortcut key to hide/show all screenshots. \nThe shortcut keys set by other programs cannot be used.");
+            this.toolTip1.SetToolTip(this.hotkeyControl2, "Ctrl key, Shift key and Alt key, the combination of each key to set the shortcut " +
+        "key to hide/show all screenshots. \nThe shortcut keys set by other programs canno" +
+        "t be used.");
             // 
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(56, 160);
-            this.label17.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
+            this.label17.Location = new System.Drawing.Point(41, 112);
+            this.label17.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(328, 30);
+            this.label17.Size = new System.Drawing.Size(156, 21);
             this.label17.TabIndex = 4;
             this.label17.Text = "Hide/show keys:";
             // 
             // hotkeyControl1
             // 
             this.hotkeyControl1.Hotkey = System.Windows.Forms.Keys.None;
-            this.hotkeyControl1.Location = new System.Drawing.Point(364, 60);
-            this.hotkeyControl1.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.hotkeyControl1.Location = new System.Drawing.Point(267, 42);
+            this.hotkeyControl1.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.hotkeyControl1.Name = "hotkeyControl1";
-            this.hotkeyControl1.Size = new System.Drawing.Size(375, 46);
+            this.hotkeyControl1.Size = new System.Drawing.Size(275, 32);
             this.hotkeyControl1.TabIndex = 0;
-            this.toolTip1.SetToolTip(this.hotkeyControl1, "Ctrl key, Shift key and Alt key, the combination of each key to set the shortcut key for interception. \nThe shortcut keys set by other programs cannot be used.");
+            this.toolTip1.SetToolTip(this.hotkeyControl1, "Ctrl key, Shift key and Alt key, the combination of each key to set the shortcut " +
+        "key for interception. \nThe shortcut keys set by other programs cannot be used.");
             // 
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(862, 22);
-            this.checkBox1.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.checkBox1.Location = new System.Drawing.Point(592, 49);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(201, 34);
+            this.checkBox1.Size = new System.Drawing.Size(104, 25);
             this.checkBox1.TabIndex = 2;
             this.checkBox1.Text = "Enabled";
             this.toolTip1.SetToolTip(this.checkBox1, "To enable shortcut keys, check it.");
@@ -864,10 +871,10 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(56, 76);
-            this.label3.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
+            this.label3.Location = new System.Drawing.Point(41, 53);
+            this.label3.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(193, 30);
+            this.label3.Size = new System.Drawing.Size(117, 21);
             this.label3.TabIndex = 1;
             this.label3.Text = "Screenshot:";
             // 
@@ -875,11 +882,11 @@
             // 
             this.pageScrap.BackColor = System.Drawing.Color.White;
             this.pageScrap.Controls.Add(this.flowLayoutPanel1);
-            this.pageScrap.Location = new System.Drawing.Point(4, 43);
-            this.pageScrap.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.pageScrap.Location = new System.Drawing.Point(4, 34);
+            this.pageScrap.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.pageScrap.Name = "pageScrap";
-            this.pageScrap.Padding = new System.Windows.Forms.Padding(8, 6, 8, 6);
-            this.pageScrap.Size = new System.Drawing.Size(1110, 843);
+            this.pageScrap.Padding = new System.Windows.Forms.Padding(6, 4, 6, 4);
+            this.pageScrap.Size = new System.Drawing.Size(812, 585);
             this.pageScrap.TabIndex = 2;
             this.pageScrap.Text = "Recycle image settings";
             this.pageScrap.UseVisualStyleBackColor = true;
@@ -890,10 +897,10 @@
             this.flowLayoutPanel1.Controls.Add(this.pnlScrapStyle);
             this.flowLayoutPanel1.Controls.Add(this.panel4);
             this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(8, 6);
-            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(6, 4);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1059, 754);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(777, 528);
             this.flowLayoutPanel1.TabIndex = 0;
             // 
             // pnlScrapStyle
@@ -902,20 +909,20 @@
             this.pnlScrapStyle.Controls.Add(this.label5);
             this.pnlScrapStyle.Controls.Add(this.cmbCreateStyle);
             this.pnlScrapStyle.Controls.Add(this.label4);
-            this.pnlScrapStyle.Location = new System.Drawing.Point(8, 6);
-            this.pnlScrapStyle.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.pnlScrapStyle.Location = new System.Drawing.Point(6, 4);
+            this.pnlScrapStyle.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.pnlScrapStyle.Name = "pnlScrapStyle";
-            this.pnlScrapStyle.Size = new System.Drawing.Size(1029, 154);
+            this.pnlScrapStyle.Size = new System.Drawing.Size(755, 108);
             this.pnlScrapStyle.TabIndex = 0;
             // 
             // cmbWClickStyle
             // 
             this.cmbWClickStyle.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbWClickStyle.FormattingEnabled = true;
-            this.cmbWClickStyle.Location = new System.Drawing.Point(407, 94);
-            this.cmbWClickStyle.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.cmbWClickStyle.Location = new System.Drawing.Point(298, 66);
+            this.cmbWClickStyle.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.cmbWClickStyle.Name = "cmbWClickStyle";
-            this.cmbWClickStyle.Size = new System.Drawing.Size(460, 38);
+            this.cmbWClickStyle.Size = new System.Drawing.Size(338, 29);
             this.cmbWClickStyle.TabIndex = 3;
             this.toolTip1.SetToolTip(this.cmbWClickStyle, "Specify the actions used when double-clicking the recycle image.");
             this.cmbWClickStyle.SelectionChangeCommitted += new System.EventHandler(this.cmbWClickStyle_SelectionChangeCommitted);
@@ -923,10 +930,10 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(51, 94);
-            this.label5.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
+            this.label5.Location = new System.Drawing.Point(37, 66);
+            this.label5.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(133, 30);
+            this.label5.Size = new System.Drawing.Size(202, 21);
             this.label5.TabIndex = 2;
             this.label5.Text = "When double-clicking:";
             // 
@@ -934,10 +941,10 @@
             // 
             this.cmbCreateStyle.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbCreateStyle.FormattingEnabled = true;
-            this.cmbCreateStyle.Location = new System.Drawing.Point(407, 26);
-            this.cmbCreateStyle.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.cmbCreateStyle.Location = new System.Drawing.Point(298, 18);
+            this.cmbCreateStyle.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.cmbCreateStyle.Name = "cmbCreateStyle";
-            this.cmbCreateStyle.Size = new System.Drawing.Size(460, 38);
+            this.cmbCreateStyle.Size = new System.Drawing.Size(338, 29);
             this.cmbCreateStyle.TabIndex = 1;
             this.toolTip1.SetToolTip(this.cmbCreateStyle, "You can specify the actions to be used when creating a reference map.");
             this.cmbCreateStyle.SelectionChangeCommitted += new System.EventHandler(this.cmbCreateStyle_SelectionChangeCommitted);
@@ -945,10 +952,10 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(51, 34);
-            this.label4.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
+            this.label4.Location = new System.Drawing.Point(37, 24);
+            this.label4.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(223, 30);
+            this.label4.Size = new System.Drawing.Size(132, 21);
             this.label4.TabIndex = 0;
             this.label4.Text = "Basic actions:";
             // 
@@ -956,19 +963,19 @@
             // 
             this.panel4.Controls.Add(this.chkScrapImageDrag);
             this.panel4.Controls.Add(this.groupBox11);
-            this.panel4.Location = new System.Drawing.Point(8, 172);
-            this.panel4.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.panel4.Location = new System.Drawing.Point(6, 120);
+            this.panel4.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1029, 534);
+            this.panel4.Size = new System.Drawing.Size(755, 374);
             this.panel4.TabIndex = 0;
             // 
             // chkScrapImageDrag
             // 
             this.chkScrapImageDrag.AutoSize = true;
-            this.chkScrapImageDrag.Location = new System.Drawing.Point(54, 6);
-            this.chkScrapImageDrag.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.chkScrapImageDrag.Location = new System.Drawing.Point(40, 4);
+            this.chkScrapImageDrag.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.chkScrapImageDrag.Name = "chkScrapImageDrag";
-            this.chkScrapImageDrag.Size = new System.Drawing.Size(441, 34);
+            this.chkScrapImageDrag.Size = new System.Drawing.Size(429, 25);
             this.chkScrapImageDrag.TabIndex = 0;
             this.chkScrapImageDrag.Text = "Drag the image file to create a recycle image";
             this.toolTip1.SetToolTip(this.chkScrapImageDrag, "Drag the image file to the recycle image to view it as a Recycle image.");
@@ -984,11 +991,11 @@
             this.groupBox11.Controls.Add(this.label6);
             this.groupBox11.Controls.Add(this.numInactiveAlpha);
             this.groupBox11.Controls.Add(this.chkInactiveAlphaChange);
-            this.groupBox11.Location = new System.Drawing.Point(8, 76);
-            this.groupBox11.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.groupBox11.Location = new System.Drawing.Point(6, 53);
+            this.groupBox11.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.groupBox11.Name = "groupBox11";
-            this.groupBox11.Padding = new System.Windows.Forms.Padding(8, 6, 8, 6);
-            this.groupBox11.Size = new System.Drawing.Size(1014, 306);
+            this.groupBox11.Padding = new System.Windows.Forms.Padding(6, 4, 6, 4);
+            this.groupBox11.Size = new System.Drawing.Size(744, 214);
             this.groupBox11.TabIndex = 1;
             this.groupBox11.TabStop = false;
             this.groupBox11.Text = "Non-selection effect";
@@ -996,92 +1003,94 @@
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(634, 214);
-            this.label15.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
+            this.label15.Location = new System.Drawing.Point(465, 150);
+            this.label15.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(28, 30);
+            this.label15.Size = new System.Drawing.Size(21, 21);
             this.label15.TabIndex = 7;
             this.label15.Text = "%";
             // 
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(634, 94);
-            this.label13.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
+            this.label13.Location = new System.Drawing.Point(465, 66);
+            this.label13.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(28, 30);
+            this.label13.Size = new System.Drawing.Size(21, 21);
             this.label13.TabIndex = 3;
             this.label13.Text = "%";
             // 
             // numMouseOverAlpha
             // 
-            this.numMouseOverAlpha.Location = new System.Drawing.Point(532, 204);
-            this.numMouseOverAlpha.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.numMouseOverAlpha.Location = new System.Drawing.Point(390, 143);
+            this.numMouseOverAlpha.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.numMouseOverAlpha.Name = "numMouseOverAlpha";
-            this.numMouseOverAlpha.Size = new System.Drawing.Size(98, 42);
+            this.numMouseOverAlpha.Size = new System.Drawing.Size(72, 28);
             this.numMouseOverAlpha.TabIndex = 6;
             // 
             // chkMouseOverAlphaChange
             // 
             this.chkMouseOverAlphaChange.AutoSize = true;
-            this.chkMouseOverAlphaChange.Location = new System.Drawing.Point(124, 214);
-            this.chkMouseOverAlphaChange.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.chkMouseOverAlphaChange.Location = new System.Drawing.Point(91, 150);
+            this.chkMouseOverAlphaChange.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.chkMouseOverAlphaChange.Name = "chkMouseOverAlphaChange";
-            this.chkMouseOverAlphaChange.Size = new System.Drawing.Size(351, 34);
+            this.chkMouseOverAlphaChange.Size = new System.Drawing.Size(207, 25);
             this.chkMouseOverAlphaChange.TabIndex = 5;
             this.chkMouseOverAlphaChange.Text = "Change the opacity";
-            this.toolTip1.SetToolTip(this.chkMouseOverAlphaChange, "Set the opacity of the reference image when the mouse cursor is on the recycle image. \nIf the response speed is very slow, please close it.");
+            this.toolTip1.SetToolTip(this.chkMouseOverAlphaChange, "Set the opacity of the reference image when the mouse cursor is on the recycle im" +
+        "age. \nIf the response speed is very slow, please close it.");
             this.chkMouseOverAlphaChange.UseVisualStyleBackColor = true;
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(52, 174);
-            this.label11.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
+            this.label11.Location = new System.Drawing.Point(38, 122);
+            this.label11.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(163, 30);
+            this.label11.Size = new System.Drawing.Size(256, 21);
             this.label11.TabIndex = 4;
             this.label11.Text = "When the mouse is touched";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(52, 56);
-            this.label6.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
+            this.label6.Location = new System.Drawing.Point(38, 39);
+            this.label6.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(193, 30);
+            this.label6.Size = new System.Drawing.Size(291, 21);
             this.label6.TabIndex = 0;
             this.label6.Text = "When the mouse is not touched";
             // 
             // numInactiveAlpha
             // 
-            this.numInactiveAlpha.Location = new System.Drawing.Point(532, 86);
-            this.numInactiveAlpha.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.numInactiveAlpha.Location = new System.Drawing.Point(390, 60);
+            this.numInactiveAlpha.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.numInactiveAlpha.Name = "numInactiveAlpha";
-            this.numInactiveAlpha.Size = new System.Drawing.Size(98, 42);
+            this.numInactiveAlpha.Size = new System.Drawing.Size(72, 28);
             this.numInactiveAlpha.TabIndex = 2;
             // 
             // chkInactiveAlphaChange
             // 
             this.chkInactiveAlphaChange.AutoSize = true;
-            this.chkInactiveAlphaChange.Location = new System.Drawing.Point(124, 94);
-            this.chkInactiveAlphaChange.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.chkInactiveAlphaChange.Location = new System.Drawing.Point(91, 66);
+            this.chkInactiveAlphaChange.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.chkInactiveAlphaChange.Name = "chkInactiveAlphaChange";
-            this.chkInactiveAlphaChange.Size = new System.Drawing.Size(351, 34);
+            this.chkInactiveAlphaChange.Size = new System.Drawing.Size(305, 25);
             this.chkInactiveAlphaChange.TabIndex = 1;
             this.chkInactiveAlphaChange.Text = "opacity of the reference image";
-            this.toolTip1.SetToolTip(this.chkInactiveAlphaChange, "Set the opacity of the reference image after the mouse cursor leaves the recycle image. \nIf the response speed is very slow, please close it.");
+            this.toolTip1.SetToolTip(this.chkInactiveAlphaChange, "Set the opacity of the reference image after the mouse cursor leaves the recycle " +
+        "image. \nIf the response speed is very slow, please close it.");
             this.chkInactiveAlphaChange.UseVisualStyleBackColor = true;
             // 
             // pageStyle
             // 
             this.pageStyle.BackColor = System.Drawing.Color.White;
             this.pageStyle.Controls.Add(this.groupBox1);
-            this.pageStyle.Location = new System.Drawing.Point(4, 43);
+            this.pageStyle.Location = new System.Drawing.Point(4, 34);
             this.pageStyle.Margin = new System.Windows.Forms.Padding(0);
             this.pageStyle.Name = "pageStyle";
-            this.pageStyle.Padding = new System.Windows.Forms.Padding(13, 14, 13, 14);
-            this.pageStyle.Size = new System.Drawing.Size(1110, 843);
+            this.pageStyle.Padding = new System.Windows.Forms.Padding(10, 10, 10, 10);
+            this.pageStyle.Size = new System.Drawing.Size(812, 585);
             this.pageStyle.TabIndex = 0;
             this.pageStyle.Text = "Edit actions";
             this.pageStyle.UseVisualStyleBackColor = true;
@@ -1097,21 +1106,21 @@
             this.groupBox1.Controls.Add(this.listStyleItems);
             this.groupBox1.Controls.Add(this.btnDeleteStyle);
             this.groupBox1.Controls.Add(this.btnNewStyle);
-            this.groupBox1.Location = new System.Drawing.Point(21, 20);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.groupBox1.Location = new System.Drawing.Point(15, 14);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(8, 6, 8, 6);
-            this.groupBox1.Size = new System.Drawing.Size(1058, 766);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(6, 4, 6, 4);
+            this.groupBox1.Size = new System.Drawing.Size(776, 536);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Action list";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(566, 44);
-            this.button1.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.button1.Location = new System.Drawing.Point(415, 31);
+            this.button1.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(158, 64);
+            this.button1.Size = new System.Drawing.Size(116, 45);
             this.button1.TabIndex = 8;
             this.button1.Text = "Copy";
             this.button1.UseVisualStyleBackColor = true;
@@ -1120,7 +1129,7 @@
             // listStyles
             // 
             this.listStyles.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.listStyles.Font = System.Drawing.SystemFonts.DefaultFont;
+            this.listStyles.Font = new System.Drawing.Font("MS UI Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.listStyles.FormattingEnabled = true;
             this.listStyles.ItemDragMove = true;
             this.listStyles.ItemHeight = 20;
@@ -1128,10 +1137,10 @@
             this.listStyles.ItemLine = false;
             this.listStyles.ItemLineColor = System.Drawing.Color.Gray;
             this.listStyles.LeftSpace = 2;
-            this.listStyles.Location = new System.Drawing.Point(51, 124);
-            this.listStyles.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.listStyles.Location = new System.Drawing.Point(37, 87);
+            this.listStyles.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.listStyles.Name = "listStyles";
-            this.listStyles.Size = new System.Drawing.Size(497, 604);
+            this.listStyles.Size = new System.Drawing.Size(366, 424);
             this.listStyles.TabIndex = 3;
             this.listStyles.SelectedIndexChanged += new System.EventHandler(this.listStyles_SelectedIndexChanged);
             this.listStyles.DoubleClick += new System.EventHandler(this.listStyles_DoubleClick);
@@ -1141,39 +1150,39 @@
             this.listKeyItems.BackColor = System.Drawing.Color.White;
             this.listKeyItems.ForeColor = System.Drawing.SystemColors.WindowText;
             this.listKeyItems.FormattingEnabled = true;
-            this.listKeyItems.ItemHeight = 30;
-            this.listKeyItems.Location = new System.Drawing.Point(592, 510);
-            this.listKeyItems.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.listKeyItems.ItemHeight = 21;
+            this.listKeyItems.Location = new System.Drawing.Point(434, 357);
+            this.listKeyItems.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.listKeyItems.Name = "listKeyItems";
-            this.listKeyItems.Size = new System.Drawing.Size(445, 214);
+            this.listKeyItems.Size = new System.Drawing.Size(327, 151);
             this.listKeyItems.TabIndex = 7;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(587, 470);
-            this.label2.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
+            this.label2.Location = new System.Drawing.Point(430, 329);
+            this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(193, 30);
+            this.label2.Size = new System.Drawing.Size(234, 21);
             this.label2.TabIndex = 6;
             this.label2.Text = "Shortcut key assignment:";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(587, 146);
-            this.label1.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
+            this.label1.Location = new System.Drawing.Point(430, 102);
+            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(253, 30);
+            this.label1.Size = new System.Drawing.Size(215, 21);
             this.label1.TabIndex = 4;
             this.label1.Text = "Composition of actions:";
             // 
             // btnEditStyle
             // 
-            this.btnEditStyle.Location = new System.Drawing.Point(223, 44);
-            this.btnEditStyle.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.btnEditStyle.Location = new System.Drawing.Point(164, 31);
+            this.btnEditStyle.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.btnEditStyle.Name = "btnEditStyle";
-            this.btnEditStyle.Size = new System.Drawing.Size(158, 64);
+            this.btnEditStyle.Size = new System.Drawing.Size(116, 45);
             this.btnEditStyle.TabIndex = 1;
             this.btnEditStyle.Tag = " ";
             this.btnEditStyle.Text = "Edit";
@@ -1185,19 +1194,19 @@
             this.listStyleItems.BackColor = System.Drawing.Color.White;
             this.listStyleItems.ForeColor = System.Drawing.SystemColors.WindowText;
             this.listStyleItems.FormattingEnabled = true;
-            this.listStyleItems.ItemHeight = 30;
-            this.listStyleItems.Location = new System.Drawing.Point(592, 190);
-            this.listStyleItems.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.listStyleItems.ItemHeight = 21;
+            this.listStyleItems.Location = new System.Drawing.Point(434, 133);
+            this.listStyleItems.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.listStyleItems.Name = "listStyleItems";
-            this.listStyleItems.Size = new System.Drawing.Size(445, 244);
+            this.listStyleItems.Size = new System.Drawing.Size(327, 172);
             this.listStyleItems.TabIndex = 5;
             // 
             // btnDeleteStyle
             // 
-            this.btnDeleteStyle.Location = new System.Drawing.Point(396, 44);
-            this.btnDeleteStyle.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.btnDeleteStyle.Location = new System.Drawing.Point(290, 31);
+            this.btnDeleteStyle.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.btnDeleteStyle.Name = "btnDeleteStyle";
-            this.btnDeleteStyle.Size = new System.Drawing.Size(158, 64);
+            this.btnDeleteStyle.Size = new System.Drawing.Size(116, 45);
             this.btnDeleteStyle.TabIndex = 2;
             this.btnDeleteStyle.Text = "Delete";
             this.btnDeleteStyle.UseVisualStyleBackColor = true;
@@ -1205,10 +1214,10 @@
             // 
             // btnNewStyle
             // 
-            this.btnNewStyle.Location = new System.Drawing.Point(51, 44);
-            this.btnNewStyle.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.btnNewStyle.Location = new System.Drawing.Point(37, 31);
+            this.btnNewStyle.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.btnNewStyle.Name = "btnNewStyle";
-            this.btnNewStyle.Size = new System.Drawing.Size(158, 64);
+            this.btnNewStyle.Size = new System.Drawing.Size(116, 45);
             this.btnNewStyle.TabIndex = 0;
             this.btnNewStyle.Text = "New";
             this.btnNewStyle.UseVisualStyleBackColor = true;
@@ -1221,21 +1230,21 @@
             this.pageScrapMenu.Controls.Add(this.groupBox10);
             this.pageScrapMenu.Controls.Add(this.groupBox9);
             this.pageScrapMenu.Controls.Add(this.groupBox8);
-            this.pageScrapMenu.Location = new System.Drawing.Point(4, 43);
-            this.pageScrapMenu.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.pageScrapMenu.Location = new System.Drawing.Point(4, 34);
+            this.pageScrapMenu.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.pageScrapMenu.Name = "pageScrapMenu";
-            this.pageScrapMenu.Padding = new System.Windows.Forms.Padding(13, 14, 13, 14);
-            this.pageScrapMenu.Size = new System.Drawing.Size(1110, 843);
+            this.pageScrapMenu.Padding = new System.Windows.Forms.Padding(10, 10, 10, 10);
+            this.pageScrapMenu.Size = new System.Drawing.Size(812, 585);
             this.pageScrapMenu.TabIndex = 3;
             this.pageScrapMenu.Text = "Recycle image Menu";
             this.pageScrapMenu.UseVisualStyleBackColor = true;
             // 
             // btnScrapMenuMove
             // 
-            this.btnScrapMenuMove.Location = new System.Drawing.Point(489, 64);
-            this.btnScrapMenuMove.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.btnScrapMenuMove.Location = new System.Drawing.Point(359, 45);
+            this.btnScrapMenuMove.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.btnScrapMenuMove.Name = "btnScrapMenuMove";
-            this.btnScrapMenuMove.Size = new System.Drawing.Size(120, 696);
+            this.btnScrapMenuMove.Size = new System.Drawing.Size(88, 487);
             this.btnScrapMenuMove.TabIndex = 2;
             this.btnScrapMenuMove.Text = ">>";
             this.btnScrapMenuMove.UseVisualStyleBackColor = true;
@@ -1244,11 +1253,11 @@
             // groupBox10
             // 
             this.groupBox10.Controls.Add(this.listScrapMenuList);
-            this.groupBox10.Location = new System.Drawing.Point(624, 20);
-            this.groupBox10.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.groupBox10.Location = new System.Drawing.Point(458, 14);
+            this.groupBox10.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.groupBox10.Name = "groupBox10";
-            this.groupBox10.Padding = new System.Windows.Forms.Padding(13, 6, 13, 6);
-            this.groupBox10.Size = new System.Drawing.Size(454, 764);
+            this.groupBox10.Padding = new System.Windows.Forms.Padding(10, 4, 10, 4);
+            this.groupBox10.Size = new System.Drawing.Size(333, 535);
             this.groupBox10.TabIndex = 3;
             this.groupBox10.TabStop = false;
             this.groupBox10.Text = "Recycle image Menu";
@@ -1256,7 +1265,7 @@
             // listScrapMenuList
             // 
             this.listScrapMenuList.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.listScrapMenuList.Font = System.Drawing.SystemFonts.DefaultFont;
+            this.listScrapMenuList.Font = new System.Drawing.Font("MS UI Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.listScrapMenuList.FormattingEnabled = true;
             this.listScrapMenuList.IntegralHeight = false;
             this.listScrapMenuList.ItemDragMove = true;
@@ -1265,21 +1274,21 @@
             this.listScrapMenuList.ItemLine = false;
             this.listScrapMenuList.ItemLineColor = System.Drawing.Color.Gray;
             this.listScrapMenuList.LeftSpace = 2;
-            this.listScrapMenuList.Location = new System.Drawing.Point(21, 44);
-            this.listScrapMenuList.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.listScrapMenuList.Location = new System.Drawing.Point(15, 31);
+            this.listScrapMenuList.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.listScrapMenuList.Name = "listScrapMenuList";
-            this.listScrapMenuList.Size = new System.Drawing.Size(407, 690);
+            this.listScrapMenuList.Size = new System.Drawing.Size(300, 484);
             this.listScrapMenuList.TabIndex = 0;
             this.toolTip1.SetToolTip(this.listScrapMenuList, "The structure of the menu displayed when you right-click the recycle image.");
             // 
             // groupBox9
             // 
             this.groupBox9.Controls.Add(this.listScrapMenuItems);
-            this.groupBox9.Location = new System.Drawing.Point(21, 506);
-            this.groupBox9.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.groupBox9.Location = new System.Drawing.Point(15, 354);
+            this.groupBox9.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Padding = new System.Windows.Forms.Padding(13, 6, 13, 6);
-            this.groupBox9.Size = new System.Drawing.Size(456, 274);
+            this.groupBox9.Padding = new System.Windows.Forms.Padding(10, 4, 10, 4);
+            this.groupBox9.Size = new System.Drawing.Size(334, 192);
             this.groupBox9.TabIndex = 1;
             this.groupBox9.TabStop = false;
             this.groupBox9.Text = "Others";
@@ -1287,7 +1296,7 @@
             // listScrapMenuItems
             // 
             this.listScrapMenuItems.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.listScrapMenuItems.Font = System.Drawing.SystemFonts.DefaultFont;
+            this.listScrapMenuItems.Font = new System.Drawing.Font("MS UI Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.listScrapMenuItems.FormattingEnabled = true;
             this.listScrapMenuItems.ItemDragMove = false;
             this.listScrapMenuItems.ItemHeight = 20;
@@ -1295,10 +1304,10 @@
             this.listScrapMenuItems.ItemLine = false;
             this.listScrapMenuItems.ItemLineColor = System.Drawing.Color.Gray;
             this.listScrapMenuItems.LeftSpace = 2;
-            this.listScrapMenuItems.Location = new System.Drawing.Point(21, 44);
-            this.listScrapMenuItems.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.listScrapMenuItems.Location = new System.Drawing.Point(15, 31);
+            this.listScrapMenuItems.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.listScrapMenuItems.Name = "listScrapMenuItems";
-            this.listScrapMenuItems.Size = new System.Drawing.Size(409, 204);
+            this.listScrapMenuItems.Size = new System.Drawing.Size(301, 144);
             this.listScrapMenuItems.TabIndex = 0;
             this.listScrapMenuItems.Enter += new System.EventHandler(this.listScrapMenuItems_Enter);
             this.listScrapMenuItems.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.listScrapMenuItems_MouseDoubleClick);
@@ -1306,11 +1315,11 @@
             // groupBox8
             // 
             this.groupBox8.Controls.Add(this.listScrapMenuStyles);
-            this.groupBox8.Location = new System.Drawing.Point(21, 20);
-            this.groupBox8.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.groupBox8.Location = new System.Drawing.Point(15, 14);
+            this.groupBox8.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Padding = new System.Windows.Forms.Padding(13, 6, 13, 6);
-            this.groupBox8.Size = new System.Drawing.Size(456, 474);
+            this.groupBox8.Padding = new System.Windows.Forms.Padding(10, 4, 10, 4);
+            this.groupBox8.Size = new System.Drawing.Size(334, 332);
             this.groupBox8.TabIndex = 0;
             this.groupBox8.TabStop = false;
             this.groupBox8.Text = "Action list";
@@ -1318,7 +1327,7 @@
             // listScrapMenuStyles
             // 
             this.listScrapMenuStyles.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.listScrapMenuStyles.Font = System.Drawing.SystemFonts.DefaultFont;
+            this.listScrapMenuStyles.Font = new System.Drawing.Font("MS UI Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.listScrapMenuStyles.FormattingEnabled = true;
             this.listScrapMenuStyles.ItemDragMove = false;
             this.listScrapMenuStyles.ItemHeight = 20;
@@ -1326,10 +1335,10 @@
             this.listScrapMenuStyles.ItemLine = false;
             this.listScrapMenuStyles.ItemLineColor = System.Drawing.Color.Gray;
             this.listScrapMenuStyles.LeftSpace = 2;
-            this.listScrapMenuStyles.Location = new System.Drawing.Point(21, 44);
-            this.listScrapMenuStyles.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.listScrapMenuStyles.Location = new System.Drawing.Point(15, 31);
+            this.listScrapMenuStyles.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.listScrapMenuStyles.Name = "listScrapMenuStyles";
-            this.listScrapMenuStyles.Size = new System.Drawing.Size(409, 404);
+            this.listScrapMenuStyles.Size = new System.Drawing.Size(301, 284);
             this.listScrapMenuStyles.TabIndex = 0;
             this.listScrapMenuStyles.Enter += new System.EventHandler(this.listScrapMenuStyles_Enter);
             this.listScrapMenuStyles.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.listScrapMenuStyles_MouseDoubleClick);
@@ -1340,11 +1349,11 @@
             this.pageMisc.Controls.Add(this.groupBox14);
             this.pageMisc.Controls.Add(this.groupBox16);
             this.pageMisc.Controls.Add(this.groupBox15);
-            this.pageMisc.Location = new System.Drawing.Point(4, 43);
-            this.pageMisc.Margin = new System.Windows.Forms.Padding(6);
+            this.pageMisc.Location = new System.Drawing.Point(4, 34);
+            this.pageMisc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pageMisc.Name = "pageMisc";
-            this.pageMisc.Padding = new System.Windows.Forms.Padding(6);
-            this.pageMisc.Size = new System.Drawing.Size(1110, 843);
+            this.pageMisc.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pageMisc.Size = new System.Drawing.Size(812, 585);
             this.pageMisc.TabIndex = 5;
             this.pageMisc.Text = "Miscellaneous settings";
             // 
@@ -1352,11 +1361,11 @@
             // 
             this.groupBox14.Controls.Add(this.checkBox_cursor);
             this.groupBox14.Controls.Add(this.checkBox_magnifier);
-            this.groupBox14.Location = new System.Drawing.Point(13, 336);
-            this.groupBox14.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.groupBox14.Location = new System.Drawing.Point(10, 235);
+            this.groupBox14.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.groupBox14.Name = "groupBox14";
-            this.groupBox14.Padding = new System.Windows.Forms.Padding(8, 6, 8, 6);
-            this.groupBox14.Size = new System.Drawing.Size(1076, 114);
+            this.groupBox14.Padding = new System.Windows.Forms.Padding(6, 4, 6, 4);
+            this.groupBox14.Size = new System.Drawing.Size(789, 80);
             this.groupBox14.TabIndex = 14;
             this.groupBox14.TabStop = false;
             this.groupBox14.Text = "Others";
@@ -1364,10 +1373,10 @@
             // checkBox_cursor
             // 
             this.checkBox_cursor.AutoSize = true;
-            this.checkBox_cursor.Location = new System.Drawing.Point(79, 48);
-            this.checkBox_cursor.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.checkBox_cursor.Location = new System.Drawing.Point(58, 34);
+            this.checkBox_cursor.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.checkBox_cursor.Name = "checkBox_cursor";
-            this.checkBox_cursor.Size = new System.Drawing.Size(291, 34);
+            this.checkBox_cursor.Size = new System.Drawing.Size(342, 25);
             this.checkBox_cursor.TabIndex = 6;
             this.checkBox_cursor.Text = "Keep the mouse in the screenshot";
             this.toolTip1.SetToolTip(this.checkBox_cursor, "Whether to show the mouse when taking a screenshot");
@@ -1376,10 +1385,10 @@
             // checkBox_magnifier
             // 
             this.checkBox_magnifier.AutoSize = true;
-            this.checkBox_magnifier.Location = new System.Drawing.Point(420, 48);
-            this.checkBox_magnifier.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.checkBox_magnifier.Location = new System.Drawing.Point(308, 34);
+            this.checkBox_magnifier.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.checkBox_magnifier.Name = "checkBox_magnifier";
-            this.checkBox_magnifier.Size = new System.Drawing.Size(411, 34);
+            this.checkBox_magnifier.Size = new System.Drawing.Size(616, 25);
             this.checkBox_magnifier.TabIndex = 6;
             this.checkBox_magnifier.Text = "Display a magnifying glass for reference when taking a screenshot";
             this.toolTip1.SetToolTip(this.checkBox_magnifier, "Display a magnifying glass for reference when taking a screenshot");
@@ -1393,11 +1402,11 @@
             this.groupBox16.Controls.Add(this.label18);
             this.groupBox16.Controls.Add(this.pictureBox_fullscreenCursor);
             this.groupBox16.Controls.Add(this.label19);
-            this.groupBox16.Location = new System.Drawing.Point(13, 14);
-            this.groupBox16.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.groupBox16.Location = new System.Drawing.Point(10, 10);
+            this.groupBox16.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.groupBox16.Name = "groupBox16";
-            this.groupBox16.Padding = new System.Windows.Forms.Padding(8, 6, 8, 6);
-            this.groupBox16.Size = new System.Drawing.Size(1076, 184);
+            this.groupBox16.Padding = new System.Windows.Forms.Padding(6, 4, 6, 4);
+            this.groupBox16.Size = new System.Drawing.Size(789, 129);
             this.groupBox16.TabIndex = 13;
             this.groupBox16.TabStop = false;
             this.groupBox16.Text = "Full screen cross cursor style";
@@ -1405,10 +1414,10 @@
             // checkBox_fullscreenCursor
             // 
             this.checkBox_fullscreenCursor.AutoSize = true;
-            this.checkBox_fullscreenCursor.Location = new System.Drawing.Point(909, 24);
-            this.checkBox_fullscreenCursor.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.checkBox_fullscreenCursor.Location = new System.Drawing.Point(580, 40);
+            this.checkBox_fullscreenCursor.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.checkBox_fullscreenCursor.Name = "checkBox_fullscreenCursor";
-            this.checkBox_fullscreenCursor.Size = new System.Drawing.Size(171, 34);
+            this.checkBox_fullscreenCursor.Size = new System.Drawing.Size(197, 25);
             this.checkBox_fullscreenCursor.TabIndex = 7;
             this.checkBox_fullscreenCursor.Text = "Full screen cursor";
             this.toolTip1.SetToolTip(this.checkBox_fullscreenCursor, "The cursor when taking a screenshot is displayed as a full-screen cursor");
@@ -1417,10 +1426,10 @@
             // radioButton2_fullscreenCursor
             // 
             this.radioButton2_fullscreenCursor.AutoSize = true;
-            this.radioButton2_fullscreenCursor.Location = new System.Drawing.Point(450, 120);
-            this.radioButton2_fullscreenCursor.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.radioButton2_fullscreenCursor.Location = new System.Drawing.Point(330, 84);
+            this.radioButton2_fullscreenCursor.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.radioButton2_fullscreenCursor.Name = "radioButton2_fullscreenCursor";
-            this.radioButton2_fullscreenCursor.Size = new System.Drawing.Size(110, 34);
+            this.radioButton2_fullscreenCursor.Size = new System.Drawing.Size(95, 25);
             this.radioButton2_fullscreenCursor.TabIndex = 17;
             this.radioButton2_fullscreenCursor.Text = "Dotted";
             this.toolTip1.SetToolTip(this.radioButton2_fullscreenCursor, "Set the border line type of the frame selection range.");
@@ -1430,10 +1439,10 @@
             // 
             this.radioButton1_fullscreenCursor.AutoSize = true;
             this.radioButton1_fullscreenCursor.Checked = true;
-            this.radioButton1_fullscreenCursor.Location = new System.Drawing.Point(328, 122);
-            this.radioButton1_fullscreenCursor.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.radioButton1_fullscreenCursor.Location = new System.Drawing.Point(241, 85);
+            this.radioButton1_fullscreenCursor.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.radioButton1_fullscreenCursor.Name = "radioButton1_fullscreenCursor";
-            this.radioButton1_fullscreenCursor.Size = new System.Drawing.Size(110, 34);
+            this.radioButton1_fullscreenCursor.Size = new System.Drawing.Size(77, 25);
             this.radioButton1_fullscreenCursor.TabIndex = 16;
             this.radioButton1_fullscreenCursor.TabStop = true;
             this.radioButton1_fullscreenCursor.Text = "Solid";
@@ -1443,10 +1452,10 @@
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(73, 66);
-            this.label18.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
+            this.label18.Location = new System.Drawing.Point(54, 46);
+            this.label18.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(223, 30);
+            this.label18.Size = new System.Drawing.Size(155, 21);
             this.label18.TabIndex = 14;
             this.label18.Text = "Color of the line:";
             // 
@@ -1455,10 +1464,10 @@
             this.pictureBox_fullscreenCursor.BackColor = System.Drawing.Color.Blue;
             this.pictureBox_fullscreenCursor.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox_fullscreenCursor.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox_fullscreenCursor.Location = new System.Drawing.Point(328, 60);
-            this.pictureBox_fullscreenCursor.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.pictureBox_fullscreenCursor.Location = new System.Drawing.Point(241, 42);
+            this.pictureBox_fullscreenCursor.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.pictureBox_fullscreenCursor.Name = "pictureBox_fullscreenCursor";
-            this.pictureBox_fullscreenCursor.Size = new System.Drawing.Size(73, 38);
+            this.pictureBox_fullscreenCursor.Size = new System.Drawing.Size(55, 28);
             this.pictureBox_fullscreenCursor.TabIndex = 18;
             this.pictureBox_fullscreenCursor.TabStop = false;
             this.toolTip1.SetToolTip(this.pictureBox_fullscreenCursor, "Specify the color of the border line of the frame selection range.");
@@ -1467,21 +1476,21 @@
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(73, 126);
-            this.label19.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
+            this.label19.Location = new System.Drawing.Point(54, 88);
+            this.label19.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(223, 30);
+            this.label19.Size = new System.Drawing.Size(105, 21);
             this.label19.TabIndex = 15;
             this.label19.Text = "Frame line:";
             // 
             // groupBox15
             // 
             this.groupBox15.Controls.Add(this.checkBox_transparent);
-            this.groupBox15.Location = new System.Drawing.Point(13, 210);
-            this.groupBox15.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.groupBox15.Location = new System.Drawing.Point(10, 147);
+            this.groupBox15.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.groupBox15.Name = "groupBox15";
-            this.groupBox15.Padding = new System.Windows.Forms.Padding(8, 6, 8, 6);
-            this.groupBox15.Size = new System.Drawing.Size(1076, 114);
+            this.groupBox15.Padding = new System.Windows.Forms.Padding(6, 4, 6, 4);
+            this.groupBox15.Size = new System.Drawing.Size(789, 80);
             this.groupBox15.TabIndex = 13;
             this.groupBox15.TabStop = false;
             this.groupBox15.Text = "Screenshot background";
@@ -1489,10 +1498,10 @@
             // checkBox_transparent
             // 
             this.checkBox_transparent.AutoSize = true;
-            this.checkBox_transparent.Location = new System.Drawing.Point(79, 48);
-            this.checkBox_transparent.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.checkBox_transparent.Location = new System.Drawing.Point(58, 34);
+            this.checkBox_transparent.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.checkBox_transparent.Name = "checkBox_transparent";
-            this.checkBox_transparent.Size = new System.Drawing.Size(441, 34);
+            this.checkBox_transparent.Size = new System.Drawing.Size(545, 25);
             this.checkBox_transparent.TabIndex = 6;
             this.checkBox_transparent.Text = "Mouse can penetrate the transparent part of screenshots";
             this.checkBox_transparent.UseVisualStyleBackColor = true;
@@ -1509,9 +1518,9 @@
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.panel1.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(322, 900);
+            this.panel1.Size = new System.Drawing.Size(236, 630);
             this.panel1.TabIndex = 1;
             // 
             // lblMenuMisc
@@ -1519,10 +1528,10 @@
             this.lblMenuMisc.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(132)))), ((int)(((byte)(215)))));
             this.lblMenuMisc.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblMenuMisc.ForeColor = System.Drawing.Color.White;
-            this.lblMenuMisc.Location = new System.Drawing.Point(30, 276);
-            this.lblMenuMisc.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
+            this.lblMenuMisc.Location = new System.Drawing.Point(22, 193);
+            this.lblMenuMisc.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblMenuMisc.Name = "lblMenuMisc";
-            this.lblMenuMisc.Size = new System.Drawing.Size(249, 34);
+            this.lblMenuMisc.Size = new System.Drawing.Size(183, 24);
             this.lblMenuMisc.TabIndex = 6;
             this.lblMenuMisc.Text = "Miscellaneous settings";
             this.lblMenuMisc.Click += new System.EventHandler(this.lblMenuMisc_Click);
@@ -1534,10 +1543,10 @@
             this.lblMenuStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(132)))), ((int)(((byte)(215)))));
             this.lblMenuStyle.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblMenuStyle.ForeColor = System.Drawing.Color.White;
-            this.lblMenuStyle.Location = new System.Drawing.Point(68, 174);
-            this.lblMenuStyle.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
+            this.lblMenuStyle.Location = new System.Drawing.Point(50, 122);
+            this.lblMenuStyle.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblMenuStyle.Name = "lblMenuStyle";
-            this.lblMenuStyle.Size = new System.Drawing.Size(249, 34);
+            this.lblMenuStyle.Size = new System.Drawing.Size(183, 24);
             this.lblMenuStyle.TabIndex = 2;
             this.lblMenuStyle.Text = "Create actions";
             this.lblMenuStyle.Click += new System.EventHandler(this.lblMenuStyle_Click);
@@ -1549,10 +1558,10 @@
             this.lblMenuCapture.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(132)))), ((int)(((byte)(215)))));
             this.lblMenuCapture.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblMenuCapture.ForeColor = System.Drawing.Color.White;
-            this.lblMenuCapture.Location = new System.Drawing.Point(30, 74);
-            this.lblMenuCapture.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
+            this.lblMenuCapture.Location = new System.Drawing.Point(22, 52);
+            this.lblMenuCapture.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblMenuCapture.Name = "lblMenuCapture";
-            this.lblMenuCapture.Size = new System.Drawing.Size(249, 34);
+            this.lblMenuCapture.Size = new System.Drawing.Size(183, 24);
             this.lblMenuCapture.TabIndex = 5;
             this.lblMenuCapture.Text = "Capture settings";
             this.lblMenuCapture.Click += new System.EventHandler(this.lblMenuCapture_Click);
@@ -1564,10 +1573,10 @@
             this.lblMenuMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(132)))), ((int)(((byte)(215)))));
             this.lblMenuMenu.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblMenuMenu.ForeColor = System.Drawing.Color.White;
-            this.lblMenuMenu.Location = new System.Drawing.Point(68, 224);
-            this.lblMenuMenu.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
+            this.lblMenuMenu.Location = new System.Drawing.Point(50, 157);
+            this.lblMenuMenu.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblMenuMenu.Name = "lblMenuMenu";
-            this.lblMenuMenu.Size = new System.Drawing.Size(249, 34);
+            this.lblMenuMenu.Size = new System.Drawing.Size(183, 24);
             this.lblMenuMenu.TabIndex = 3;
             this.lblMenuMenu.Text = "Reference imgae menu";
             this.lblMenuMenu.Click += new System.EventHandler(this.lblMenuMenu_Click);
@@ -1579,10 +1588,10 @@
             this.lblMenuScrap.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(132)))), ((int)(((byte)(215)))));
             this.lblMenuScrap.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblMenuScrap.ForeColor = System.Drawing.Color.White;
-            this.lblMenuScrap.Location = new System.Drawing.Point(30, 124);
-            this.lblMenuScrap.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
+            this.lblMenuScrap.Location = new System.Drawing.Point(22, 87);
+            this.lblMenuScrap.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblMenuScrap.Name = "lblMenuScrap";
-            this.lblMenuScrap.Size = new System.Drawing.Size(249, 34);
+            this.lblMenuScrap.Size = new System.Drawing.Size(183, 24);
             this.lblMenuScrap.TabIndex = 1;
             this.lblMenuScrap.Text = "Recycle image settings";
             this.lblMenuScrap.Click += new System.EventHandler(this.lblMenuScrap_Click);
@@ -1593,12 +1602,12 @@
             // 
             this.lblMenuAll.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(132)))), ((int)(((byte)(215)))));
             this.lblMenuAll.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblMenuAll.Font = System.Drawing.SystemFonts.DefaultFont;
+            this.lblMenuAll.Font = new System.Drawing.Font("MS UI Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.lblMenuAll.ForeColor = System.Drawing.Color.White;
-            this.lblMenuAll.Location = new System.Drawing.Point(30, 24);
-            this.lblMenuAll.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
+            this.lblMenuAll.Location = new System.Drawing.Point(22, 17);
+            this.lblMenuAll.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblMenuAll.Name = "lblMenuAll";
-            this.lblMenuAll.Size = new System.Drawing.Size(249, 36);
+            this.lblMenuAll.Size = new System.Drawing.Size(183, 25);
             this.lblMenuAll.TabIndex = 0;
             this.lblMenuAll.Text = "General";
             this.lblMenuAll.Click += new System.EventHandler(this.lblMenuAll_Click);
@@ -1608,10 +1617,10 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::SETUNA.Properties.Resources.OptionBG;
-            this.pictureBox1.Location = new System.Drawing.Point(-164, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.pictureBox1.Location = new System.Drawing.Point(-120, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(664, 900);
+            this.pictureBox1.Size = new System.Drawing.Size(487, 630);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
@@ -1622,14 +1631,14 @@
             // 
             // OptionForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 30F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnCancel;
-            this.ClientSize = new System.Drawing.Size(1449, 1000);
+            this.ClientSize = new System.Drawing.Size(1063, 700);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "OptionForm";

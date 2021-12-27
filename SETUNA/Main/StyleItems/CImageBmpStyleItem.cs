@@ -33,13 +33,13 @@ namespace SETUNA.Main.StyleItems
         // Token: 0x06000484 RID: 1156 RVA: 0x0001D885 File Offset: 0x0001BA85
         public override string GetDisplayName()
         {
-            return "保存为BMP格式";
+            return "Save as BMP format";
         }
 
         // Token: 0x06000485 RID: 1157 RVA: 0x0001D88C File Offset: 0x0001BA8C
         public override string GetDescription()
         {
-            return "用BMP格式的图像保存参考图。";
+            return "Use BMP format images to save reference images.";
         }
 
         // Token: 0x06000486 RID: 1158 RVA: 0x0001D893 File Offset: 0x0001BA93
@@ -66,7 +66,7 @@ namespace SETUNA.Main.StyleItems
 
         // Token: 0x170000AD RID: 173
         // (get) Token: 0x06000489 RID: 1161 RVA: 0x0001D8FF File Offset: 0x0001BAFF
-        protected override string FileFilter => "Bitmap格式 (.bmp)|*.bmp|所有文件 (*.*)|*.*";
+        protected override string FileFilter => "Bitmap format (.bmp)|*.bmp|All files (*.*)|*.*";
 
         // Token: 0x0600048A RID: 1162 RVA: 0x0001D906 File Offset: 0x0001BB06
         public override Bitmap GetIcon()
