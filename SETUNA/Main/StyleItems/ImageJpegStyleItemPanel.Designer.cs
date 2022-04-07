@@ -64,16 +64,16 @@
             this.groupBox1.Size = new System.Drawing.Size(386, 314);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "设置";
+            this.groupBox1.Text = "Setup";
             // 
             // cmbDupli
             // 
             this.cmbDupli.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbDupli.FormattingEnabled = true;
             this.cmbDupli.Items.AddRange(new object[] {
-            "覆盖",
-            "追加序号",
-            "重复时指定"});
+            "cover",
+            "Append sequence number",
+            "Specify when repeating"});
             this.cmbDupli.Location = new System.Drawing.Point(133, 127);
             this.cmbDupli.Name = "cmbDupli";
             this.cmbDupli.Size = new System.Drawing.Size(133, 20);
@@ -86,7 +86,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(53, 12);
             this.label2.TabIndex = 8;
-            this.label2.Text = "重复时∶";
+            this.label2.Text = "When repeating:";
             // 
             // rdoSaveAs
             // 
@@ -96,7 +96,7 @@
             this.rdoSaveAs.Size = new System.Drawing.Size(83, 16);
             this.rdoSaveAs.TabIndex = 4;
             this.rdoSaveAs.TabStop = true;
-            this.rdoSaveAs.Text = "保存时指定";
+            this.rdoSaveAs.Text = "When saving:";
             this.rdoSaveAs.UseVisualStyleBackColor = true;
             this.rdoSaveAs.CheckedChanged += new System.EventHandler(this.rdoSaveAs_CheckedChanged);
             // 
@@ -116,7 +116,7 @@
             this.rdoScrapName.Size = new System.Drawing.Size(95, 16);
             this.rdoScrapName.TabIndex = 5;
             this.rdoScrapName.TabStop = true;
-            this.rdoScrapName.Text = "使用参考图名";
+            this.rdoScrapName.Text = "Use a reference image name";
             this.rdoScrapName.UseVisualStyleBackColor = true;
             this.rdoScrapName.CheckedChanged += new System.EventHandler(this.rdoSaveAs_CheckedChanged);
             // 
@@ -138,7 +138,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(53, 12);
             this.label4.TabIndex = 3;
-            this.label4.Text = "文件名∶";
+            this.label4.Text = "File name:";
             // 
             // chkCopy
             // 
@@ -147,7 +147,7 @@
             this.chkCopy.Name = "chkCopy";
             this.chkCopy.Size = new System.Drawing.Size(204, 16);
             this.chkCopy.TabIndex = 17;
-            this.chkCopy.Text = "复制到剪贴板上的文件的保存路径";
+            this.chkCopy.Text = "Save path for files copied to clipboard";
             this.chkCopy.UseVisualStyleBackColor = true;
             // 
             // chkWindow
@@ -157,7 +157,7 @@
             this.chkWindow.Name = "chkWindow";
             this.chkWindow.Size = new System.Drawing.Size(102, 16);
             this.chkWindow.TabIndex = 16;
-            this.chkWindow.Text = "包含窗口/边框";
+            this.chkWindow.Text = "include window/border";
             this.chkWindow.UseVisualStyleBackColor = true;
             // 
             // chkShowParam

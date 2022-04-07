@@ -58,7 +58,7 @@ namespace SETUNA.Main.StyleItems
                 ResetTextBox();
                 ClearCommand();
                 base.Start();
-                parentCommand = new AddTextLayerCommand("文字层", _parent.SelectionLayerIndex());
+                parentCommand = new AddTextLayerCommand("text layer", _parent.SelectionLayerIndex());
                 _parent.AddLayerCommand(parentCommand);
                 textbox.Parent = _parent;
                 _parent.Controls.Add(textbox);
@@ -128,7 +128,7 @@ namespace SETUNA.Main.StyleItems
 
         // Token: 0x170000B7 RID: 183
         // (get) Token: 0x0600051E RID: 1310 RVA: 0x000244E6 File Offset: 0x000226E6
-        public override ScrapPaintToolBar.ToolKind GetToolType => ScrapPaintToolBar.ToolKind.文字工具;
+        public override ScrapPaintToolBar.ToolKind GetToolType => ScrapPaintToolBar.ToolKind.Character_tool;
 
         // Token: 0x0600051F RID: 1311 RVA: 0x000244EC File Offset: 0x000226EC
         public override void ShowToolBar(Form parent)

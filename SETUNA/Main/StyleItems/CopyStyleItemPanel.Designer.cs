@@ -28,7 +28,7 @@
             this.groupBox1.Size = new System.Drawing.Size(172, 62);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "设置";
+            this.groupBox1.Text = "Setup";
             // 
             // chkWindow
             // 
@@ -37,7 +37,7 @@
             this.chkWindow.Name = "chkWindow";
             this.chkWindow.Size = new System.Drawing.Size(102, 16);
             this.chkWindow.TabIndex = 0;
-            this.chkWindow.Text = "包含窗口/边框";
+            this.chkWindow.Text = "Include window/border";
             this.chkWindow.UseVisualStyleBackColor = true;
             // 
             // CopyStyleItemPanel

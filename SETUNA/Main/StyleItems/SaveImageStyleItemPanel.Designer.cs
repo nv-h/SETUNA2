@@ -49,7 +49,7 @@
             this.groupBox1.Size = new System.Drawing.Size(343, 214);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "设置";
+            this.groupBox1.Text = "Setup";
             // 
             // checkBox2
             // 
@@ -58,7 +58,7 @@
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(132, 16);
             this.checkBox2.TabIndex = 15;
-            this.checkBox2.Text = "指定保存时的文件名";
+            this.checkBox2.Text = "Saving file name";
             this.checkBox2.UseVisualStyleBackColor = true;
             // 
             // checkBox1
@@ -68,7 +68,7 @@
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(168, 16);
             this.checkBox1.TabIndex = 13;
-            this.checkBox1.Text = "保存时的格式、质量等设置";
+            this.checkBox1.Text = "Format, quality, etc. settings when saving";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // button1
@@ -94,7 +94,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(53, 12);
             this.label1.TabIndex = 10;
-            this.label1.Text = "目的地：";
+            this.label1.Text = "Destination:";
             // 
             // tabControl1
             // 
@@ -141,7 +141,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(17, 12);
             this.label5.TabIndex = 4;
-            this.label5.Text = "高";
+            this.label5.Text = "High";
             this.label5.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             // 
             // label4
@@ -151,7 +151,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(17, 12);
             this.label4.TabIndex = 3;
-            this.label4.Text = "低";
+            this.label4.Text = "Low";
             this.label4.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             // 
             // lblJpegQuality
@@ -180,7 +180,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(41, 12);
             this.label2.TabIndex = 0;
-            this.label2.Text = "质量：";
+            this.label2.Text = "Quality:";
             // 
             // tabBmp
             // 

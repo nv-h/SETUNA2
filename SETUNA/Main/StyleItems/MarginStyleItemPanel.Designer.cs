@@ -49,7 +49,7 @@
             this.groupBox1.Size = new System.Drawing.Size(207, 200);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "设置";
+            this.groupBox1.Text = "Setup";
             // 
             // chkTopMost
             // 
@@ -58,7 +58,7 @@
             this.chkTopMost.Name = "chkTopMost";
             this.chkTopMost.Size = new System.Drawing.Size(120, 16);
             this.chkTopMost.TabIndex = 11;
-            this.chkTopMost.Text = "设置为总在最上面";
+            this.chkTopMost.Text = "Set to always on top";
             this.chkTopMost.UseVisualStyleBackColor = true;
             // 
             // rdoSolid
@@ -69,7 +69,7 @@
             this.rdoSolid.Size = new System.Drawing.Size(71, 16);
             this.rdoSolid.TabIndex = 1;
             this.rdoSolid.TabStop = true;
-            this.rdoSolid.Text = "单色边框";
+            this.rdoSolid.Text = "Monochrome border";
             this.rdoSolid.UseVisualStyleBackColor = true;
             this.rdoSolid.CheckedChanged += new System.EventHandler(this.rdoWindow_CheckedChanged);
             // 
@@ -81,7 +81,7 @@
             this.rdo3D.Size = new System.Drawing.Size(71, 16);
             this.rdo3D.TabIndex = 5;
             this.rdo3D.TabStop = true;
-            this.rdo3D.Text = "立体边框";
+            this.rdo3D.Text = "3D border";
             this.rdo3D.UseVisualStyleBackColor = true;
             this.rdo3D.CheckedChanged += new System.EventHandler(this.rdoWindow_CheckedChanged);
             // 
@@ -93,7 +93,7 @@
             this.rdoWindow.Size = new System.Drawing.Size(71, 16);
             this.rdoWindow.TabIndex = 0;
             this.rdoWindow.TabStop = true;
-            this.rdoWindow.Text = "窗口边框";
+            this.rdoWindow.Text = "Window border";
             this.rdoWindow.UseVisualStyleBackColor = true;
             this.rdoWindow.CheckedChanged += new System.EventHandler(this.rdoWindow_CheckedChanged);
             // 
@@ -115,7 +115,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(41, 12);
             this.label2.TabIndex = 4;
-            this.label2.Text = "颜色∶";
+            this.label2.Text = "Color:";
             // 
             // label1
             // 
@@ -124,7 +124,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(41, 12);
             this.label1.TabIndex = 2;
-            this.label1.Text = "宽度：";
+            this.label1.Text = "Width:";
             // 
             // numMargin
             // 
@@ -144,7 +144,7 @@
             this.groupBox2.Size = new System.Drawing.Size(215, 200);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "预览";
+            this.groupBox2.Text = "Preview";
             // 
             // picPreview
             // 

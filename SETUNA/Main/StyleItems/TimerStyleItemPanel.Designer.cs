@@ -33,7 +33,7 @@
             this.groupBox1.Size = new System.Drawing.Size(205, 93);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "设置";
+            this.groupBox1.Text = "Setup";
             // 
             // label2
             // 
@@ -59,7 +59,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(41, 12);
             this.label1.TabIndex = 0;
-            this.label1.Text = "延迟：";
+            this.label1.Text = "Delay:";
             // 
             // TimerStyleItemPanel
             // 

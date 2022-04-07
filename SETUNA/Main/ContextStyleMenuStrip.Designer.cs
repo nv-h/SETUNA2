@@ -21,7 +21,7 @@ namespace SETUNA.Main
             base.Dispose(disposing);
         }
 
-        #region 组件设计器生成的代码
+        #region Component Designer Generated Code
 
         /// <summary>
         /// 设计器支持所需的方法 - 不要修改

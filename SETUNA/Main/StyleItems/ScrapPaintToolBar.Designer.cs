@@ -72,7 +72,7 @@
             this.picColorA.Size = new System.Drawing.Size(26, 26);
             this.picColorA.TabIndex = 0;
             this.picColorA.TabStop = false;
-            this.toolTip1.SetToolTip(this.picColorA, "前景色");
+            this.toolTip1.SetToolTip(this.picColorA, "Foreground color");
             this.picColorA.BackColorChanged += new System.EventHandler(this.picColorA_BackColorChanged);
             this.picColorA.Click += new System.EventHandler(this.picColorA_Click);
             // 
@@ -86,7 +86,7 @@
             this.picColorB.Size = new System.Drawing.Size(26, 26);
             this.picColorB.TabIndex = 1;
             this.picColorB.TabStop = false;
-            this.toolTip1.SetToolTip(this.picColorB, "背景色");
+            this.toolTip1.SetToolTip(this.picColorB, "Background color");
             this.picColorB.Click += new System.EventHandler(this.picColorB_Click);
             // 
             // tableLayoutPanel2
@@ -120,7 +120,7 @@
             this.chkPen.Name = "chkPen";
             this.chkPen.Size = new System.Drawing.Size(38, 28);
             this.chkPen.TabIndex = 4;
-            this.toolTip1.SetToolTip(this.chkPen, "笔工具");
+            this.toolTip1.SetToolTip(this.chkPen, "Pen tool");
             this.chkPen.UseVisualStyleBackColor = true;
             this.chkPen.Click += new System.EventHandler(this.chkPen_Click);
             // 
@@ -137,7 +137,7 @@
             this.chkText.Name = "chkText";
             this.chkText.Size = new System.Drawing.Size(38, 28);
             this.chkText.TabIndex = 8;
-            this.toolTip1.SetToolTip(this.chkText, "文本工具");
+            this.toolTip1.SetToolTip(this.chkText, "Text tool");
             this.chkText.UseVisualStyleBackColor = true;
             this.chkText.Click += new System.EventHandler(this.chkPen_Click);
             // 
@@ -154,7 +154,7 @@
             this.chkErase.Name = "chkErase";
             this.chkErase.Size = new System.Drawing.Size(38, 28);
             this.chkErase.TabIndex = 5;
-            this.toolTip1.SetToolTip(this.chkErase, "橡皮擦工具");
+            this.toolTip1.SetToolTip(this.chkErase, "Eraser Tool");
             this.chkErase.UseVisualStyleBackColor = true;
             this.chkErase.Click += new System.EventHandler(this.chkPen_Click);
             // 
@@ -176,7 +176,7 @@
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-            this.Text = "工具";
+            this.Text = "Tool bar";
             this.TopMost = true;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ScrapPaintToolBar_FormClosing);
             this.tableLayoutPanel1.ResumeLayout(false);

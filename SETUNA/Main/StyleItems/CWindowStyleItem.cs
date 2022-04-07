@@ -47,13 +47,13 @@ namespace SETUNA.Main.StyleItems
         // Token: 0x0600041D RID: 1053 RVA: 0x0001A6F4 File Offset: 0x000188F4
         public override string GetDisplayName()
         {
-            return "窗口化";
+            return "Window";
         }
 
         // Token: 0x0600041E RID: 1054 RVA: 0x0001A6FB File Offset: 0x000188FB
         public override string GetDescription()
         {
-            return "为参考图加上窗口边框。";
+            return "Add a window border to the reference image.";
         }
 
         // Token: 0x0600041F RID: 1055 RVA: 0x0001A702 File Offset: 0x00018902
@@ -78,11 +78,11 @@ namespace SETUNA.Main.StyleItems
                 string result;
                 if (IsWindow)
                 {
-                    result = "是";
+                    result = "Yes";
                 }
                 else
                 {
-                    result = "否";
+                    result = "No";
                 }
                 return result;
             }

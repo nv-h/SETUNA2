@@ -49,7 +49,7 @@
             this.groupBox1.Size = new System.Drawing.Size(312, 203);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "设置";
+            this.groupBox1.Text = "Setup";
             // 
             // numRight
             // 
@@ -89,7 +89,7 @@
             this.chkLeft.Name = "chkLeft";
             this.chkLeft.Size = new System.Drawing.Size(73, 49);
             this.chkLeft.TabIndex = 2;
-            this.chkLeft.Text = "左";
+            this.chkLeft.Text = "Left";
             this.chkLeft.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.chkLeft.UseVisualStyleBackColor = true;
             this.chkLeft.CheckedChanged += new System.EventHandler(this.chkLeft_CheckedChanged);
@@ -100,7 +100,7 @@
             this.chkRight.Name = "chkRight";
             this.chkRight.Size = new System.Drawing.Size(73, 49);
             this.chkRight.TabIndex = 4;
-            this.chkRight.Text = "右";
+            this.chkRight.Text = "Right";
             this.chkRight.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.chkRight.UseVisualStyleBackColor = true;
             this.chkRight.CheckedChanged += new System.EventHandler(this.chkRight_CheckedChanged);
@@ -111,7 +111,7 @@
             this.chkUp.Name = "chkUp";
             this.chkUp.Size = new System.Drawing.Size(73, 49);
             this.chkUp.TabIndex = 0;
-            this.chkUp.Text = "上";
+            this.chkUp.Text = "Up";
             this.chkUp.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.chkUp.UseVisualStyleBackColor = true;
             this.chkUp.CheckedChanged += new System.EventHandler(this.chkUp_CheckedChanged);
@@ -122,7 +122,7 @@
             this.chkDown.Name = "chkDown";
             this.chkDown.Size = new System.Drawing.Size(73, 49);
             this.chkDown.TabIndex = 6;
-            this.chkDown.Text = "下";
+            this.chkDown.Text = "Down";
             this.chkDown.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.chkDown.UseVisualStyleBackColor = true;
             this.chkDown.CheckedChanged += new System.EventHandler(this.chkDown_CheckedChanged);

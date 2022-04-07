@@ -36,7 +36,7 @@ namespace SETUNA.Main.StyleItems
         {
             if (erasemode)
             {
-                Text = "橡皮擦工具";
+                Text = "Eraser Tool";
                 pnlOpacity.Visible = false;
                 pnlCap.Visible = false;
                 foreach (var penButton in penButtons)

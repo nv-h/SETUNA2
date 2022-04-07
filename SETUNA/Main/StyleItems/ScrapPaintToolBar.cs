@@ -50,13 +50,13 @@ namespace SETUNA.Main.StyleItems
         {
             switch (kind)
             {
-                case ScrapPaintToolBar.ToolKind.笔工具:
+                case ScrapPaintToolBar.ToolKind.Pen_tool:
                     chkPen_Click(chkPen, null);
                     return;
-                case ScrapPaintToolBar.ToolKind.消しゴム工具:
+                case ScrapPaintToolBar.ToolKind.Eraser_tool:
                     chkPen_Click(chkErase, null);
                     return;
-                case ScrapPaintToolBar.ToolKind.文字工具:
+                case ScrapPaintToolBar.ToolKind.Character_tool:
                     chkPen_Click(chkText, null);
                     return;
                 default:
@@ -194,11 +194,11 @@ namespace SETUNA.Main.StyleItems
         public enum ToolKind
         {
             // Token: 0x040000BB RID: 187
-            笔工具,
+            Pen_tool,
             // Token: 0x040000BC RID: 188
-            消しゴム工具,
+            Eraser_tool,
             // Token: 0x040000BD RID: 189
-            文字工具
+            Character_tool
         }
     }
 }

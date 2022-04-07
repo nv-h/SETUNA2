@@ -88,7 +88,7 @@ namespace SETUNA.Main.StyleItems
                     _img.Save(tempimg, _icodec, encoderParameters);
                     if (!File.Exists(tempimg))
                     {
-                        throw new Exception("缺少临时文件");
+                        throw new Exception("missing temporary files");
                     }
                     var fileInfo = new FileInfo(tempimg);
                     lblSize.Text = (fileInfo.Length / 1024f).ToString("#,#.0") + " KB";

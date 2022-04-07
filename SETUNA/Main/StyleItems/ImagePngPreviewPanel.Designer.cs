@@ -43,7 +43,7 @@
             this.groupBox1.Size = new System.Drawing.Size(261, 198);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "设置";
+            this.groupBox1.Text = "Setup";
             // 
             // barQuality
             // 
@@ -113,7 +113,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(41, 12);
             this.label3.TabIndex = 5;
-            this.label3.Text = "质量：";
+            this.label3.Text = "quality:";
             // 
             // folderBrowserDialog1
             // 

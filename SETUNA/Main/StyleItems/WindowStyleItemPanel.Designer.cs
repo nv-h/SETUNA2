@@ -31,7 +31,7 @@
             this.groupBox1.Size = new System.Drawing.Size(171, 80);
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "设置";
+            this.groupBox1.Text = "Setup";
             // 
             // panel1
             // 
@@ -49,7 +49,7 @@
             this.rdoIncrement.Name = "rdoIncrement";
             this.rdoIncrement.Size = new System.Drawing.Size(71, 16);
             this.rdoIncrement.TabIndex = 1;
-            this.rdoIncrement.Text = "窗口类型";
+            this.rdoIncrement.Text = "window type";
             this.rdoIncrement.UseVisualStyleBackColor = true;
             // 
             // rdoFixed
@@ -61,7 +61,7 @@
             this.rdoFixed.Size = new System.Drawing.Size(83, 16);
             this.rdoFixed.TabIndex = 0;
             this.rdoFixed.TabStop = true;
-            this.rdoFixed.Text = "参考图类型";
+            this.rdoFixed.Text = "Reference image type";
             this.rdoFixed.UseVisualStyleBackColor = true;
             // 
             // WindowStyleItemPanel

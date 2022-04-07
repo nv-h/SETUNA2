@@ -57,7 +57,7 @@
             this.groupBox1.Size = new System.Drawing.Size(513, 208);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "设置";
+            this.groupBox1.Text = "Setup";
             // 
             // groupBox2
             // 
@@ -70,7 +70,7 @@
             this.groupBox2.Size = new System.Drawing.Size(179, 181);
             this.groupBox2.TabIndex = 9;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "预览";
+            this.groupBox2.Text = "Preview";
             // 
             // label4
             // 

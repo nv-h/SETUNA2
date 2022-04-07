@@ -17,11 +17,11 @@ namespace SETUNA.Main.StyleItems
             var cscaleStyleItem = (CScaleStyleItem)style;
             InitializeComponent();
             cmbInterpolation.Items.Clear();
-            cmbInterpolation.Items.Add(new ScaleStyleItemPanel.ComboItem<InterpolationMode>("不要更改", InterpolationMode.Invalid));
-            cmbInterpolation.Items.Add(new ScaleStyleItemPanel.ComboItem<InterpolationMode>("最近邻法", InterpolationMode.NearestNeighbor));
-            cmbInterpolation.Items.Add(new ScaleStyleItemPanel.ComboItem<InterpolationMode>("标准", InterpolationMode.High));
-            cmbInterpolation.Items.Add(new ScaleStyleItemPanel.ComboItem<InterpolationMode>("双线性", InterpolationMode.HighQualityBilinear));
-            cmbInterpolation.Items.Add(new ScaleStyleItemPanel.ComboItem<InterpolationMode>("两次立方", InterpolationMode.HighQualityBicubic));
+            cmbInterpolation.Items.Add(new ScaleStyleItemPanel.ComboItem<InterpolationMode>("no change", InterpolationMode.Invalid));
+            cmbInterpolation.Items.Add(new ScaleStyleItemPanel.ComboItem<InterpolationMode>("nearest neighbor", InterpolationMode.NearestNeighbor));
+            cmbInterpolation.Items.Add(new ScaleStyleItemPanel.ComboItem<InterpolationMode>("standard", InterpolationMode.High));
+            cmbInterpolation.Items.Add(new ScaleStyleItemPanel.ComboItem<InterpolationMode>("bilinear", InterpolationMode.HighQualityBilinear));
+            cmbInterpolation.Items.Add(new ScaleStyleItemPanel.ComboItem<InterpolationMode>("bicubic", InterpolationMode.HighQualityBicubic));
             Text = cscaleStyleItem.GetDisplayName();
             numFixedScale.Minimum = 10m;
             numFixedScale.Maximum = 200m;

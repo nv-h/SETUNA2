@@ -99,7 +99,7 @@
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-            this.Text = "层";
+            this.Text = "Floor";
             this.TopMost = true;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ScrapPaintLayer_FormClosing);
             this.Shown += new System.EventHandler(this.ScrapPaintLayer_Shown);

@@ -52,7 +52,7 @@
             this.groupBox1.Size = new System.Drawing.Size(335, 173);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "设置";
+            this.groupBox1.Text = "Setup";
             // 
             // lblInterpolation
             // 
@@ -62,7 +62,7 @@
             this.lblInterpolation.Name = "lblInterpolation";
             this.lblInterpolation.Size = new System.Drawing.Size(65, 12);
             this.lblInterpolation.TabIndex = 9;
-            this.lblInterpolation.Text = "插值方法：";
+            this.lblInterpolation.Text = "Interpolation method:";
             // 
             // cmbInterpolation
             // 
@@ -137,7 +137,7 @@
             this.rdoIncrement.Name = "rdoIncrement";
             this.rdoIncrement.Size = new System.Drawing.Size(59, 16);
             this.rdoIncrement.TabIndex = 5;
-            this.rdoIncrement.Text = "相对值";
+            this.rdoIncrement.Text = "relative value";
             this.rdoIncrement.UseVisualStyleBackColor = true;
             this.rdoIncrement.CheckedChanged += new System.EventHandler(this.rdoFixed_CheckedChanged);
             // 
@@ -150,7 +150,7 @@
             this.rdoFixed.Size = new System.Drawing.Size(59, 16);
             this.rdoFixed.TabIndex = 1;
             this.rdoFixed.TabStop = true;
-            this.rdoFixed.Text = "绝对值";
+            this.rdoFixed.Text = "absolute value";
             this.rdoFixed.UseVisualStyleBackColor = true;
             this.rdoFixed.CheckedChanged += new System.EventHandler(this.rdoFixed_CheckedChanged);
             // 
@@ -161,7 +161,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(41, 12);
             this.label1.TabIndex = 0;
-            this.label1.Text = "尺度∶";
+            this.label1.Text = "Scale:";
             // 
             // numFixedScale
             // 

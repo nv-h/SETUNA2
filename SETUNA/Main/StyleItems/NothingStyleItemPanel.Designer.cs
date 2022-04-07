@@ -25,7 +25,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(101, 12);
             this.label1.TabIndex = 2;
-            this.label1.Text = "这个项目没有设置";
+            this.label1.Text = "This item is not set";
             // 
             // NothingStyleItemPanel
             // 

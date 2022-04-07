@@ -133,7 +133,7 @@ namespace SETUNA.Main.StyleItems
         // Token: 0x060000F8 RID: 248 RVA: 0x00006D60 File Offset: 0x00004F60
         private void DeleteLayer()
         {
-            if (_select != null && MessageBox.Show(_select.LayerName + "我如何删除？", base.ProductName, MessageBoxButtons.YesNo, MessageBoxIcon.Asterisk, MessageBoxDefaultButton.Button2) == DialogResult.Yes)
+            if (_select != null && MessageBox.Show(_select.LayerName + "How do I delete?", base.ProductName, MessageBoxButtons.YesNo, MessageBoxIcon.Asterisk, MessageBoxDefaultButton.Button2) == DialogResult.Yes)
             {
                 var deleteLayerCommand = new DeleteLayerCommand(SelectionLayer.LayerID);
                 deleteLayerCommand.DeleteLayer += delCmd_DeleteLayer;

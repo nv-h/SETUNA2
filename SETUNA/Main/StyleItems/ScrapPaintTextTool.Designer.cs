@@ -71,12 +71,12 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("宋体", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label5.Font = new System.Drawing.Font("Yu Gothic UI", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label5.Location = new System.Drawing.Point(3, 2);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(25, 10);
             this.label5.TabIndex = 13;
-            this.label5.Text = "字体";
+            this.label5.Text = "Font";
             // 
             // numFontSize
             // 
@@ -100,12 +100,12 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("宋体", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label3.Font = new System.Drawing.Font("Yu Gothic UI", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label3.Location = new System.Drawing.Point(195, 2);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(25, 10);
             this.label3.TabIndex = 11;
-            this.label3.Text = "尺寸";
+            this.label3.Text = "size";
             // 
             // pnlEditing
             // 
@@ -149,7 +149,7 @@
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-            this.Text = "文字工具";
+            this.Text = "Character_tool";
             this.TopMost = true;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ScrapPaintTextTool_FormClosing);
             this.Shown += new System.EventHandler(this.ScrapPaintTextTool_Shown);

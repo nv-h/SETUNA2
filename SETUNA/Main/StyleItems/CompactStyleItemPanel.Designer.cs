@@ -51,7 +51,7 @@
             this.groupBox1.Size = new System.Drawing.Size(373, 164);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "设置";
+            this.groupBox1.Text = "Setup";
             // 
             // rdoDashed
             // 
@@ -61,7 +61,7 @@
             this.rdoDashed.Size = new System.Drawing.Size(47, 16);
             this.rdoDashed.TabIndex = 14;
             this.rdoDashed.TabStop = true;
-            this.rdoDashed.Text = "虚线";
+            this.rdoDashed.Text = "Dashed";
             this.rdoDashed.UseVisualStyleBackColor = true;
             // 
             // rdoSolid
@@ -72,7 +72,7 @@
             this.rdoSolid.Size = new System.Drawing.Size(47, 16);
             this.rdoSolid.TabIndex = 13;
             this.rdoSolid.TabStop = true;
-            this.rdoSolid.Text = "实线";
+            this.rdoSolid.Text = "Solid";
             this.rdoSolid.UseVisualStyleBackColor = true;
             this.rdoSolid.CheckedChanged += new System.EventHandler(this.rdoSolid_CheckedChanged);
             // 
@@ -94,7 +94,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(41, 12);
             this.label3.TabIndex = 10;
-            this.label3.Text = "边框：";
+            this.label3.Text = "Frame:";
             // 
             // groupBox2
             // 
@@ -104,7 +104,7 @@
             this.groupBox2.Size = new System.Drawing.Size(138, 138);
             this.groupBox2.TabIndex = 9;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "预览";
+            this.groupBox2.Text = "Preview";
             // 
             // picPreview
             // 
@@ -146,7 +146,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(65, 12);
             this.label1.TabIndex = 0;
-            this.label1.Text = "不透明度：";
+            this.label1.Text = "Opacity:";
             // 
             // numOpacity
             // 
